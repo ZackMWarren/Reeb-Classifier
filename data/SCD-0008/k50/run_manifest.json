@@ -1,0 +1,100 @@
+{
+  "input": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/downloaded_data/SCD-0008.h5ad",
+  "num_points": 5218,
+  "dimension": 100,
+  "methods": {
+    "dreeb": {
+      "nodes": 12,
+      "edges": 15,
+      "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0008/dreeb",
+      "metadata": {
+        "method": "dreeb",
+        "k": 50,
+        "precision": 1.0,
+        "filter_method": "diffusion_eigenfunction",
+        "beta1": 4,
+        "components": 1
+      }
+    },
+    "paga": {
+      "nodes": 15,
+      "edges": 49,
+      "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0008/paga",
+      "metadata": {
+        "method": "scanpy_paga",
+        "clusters": 15,
+        "knn": 15,
+        "leiden_resolution": 1.0,
+        "connectivity_threshold": 0.0,
+        "cluster_sizes": [
+          158,
+          440,
+          778,
+          442,
+          499,
+          89,
+          322,
+          518,
+          514,
+          154,
+          531,
+          234,
+          170,
+          178,
+          191
+        ]
+      }
+    },
+    "mapper": {
+      "nodes": 35,
+      "edges": 38,
+      "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0008/mapper",
+      "metadata": {
+        "method": "mapper",
+        "package": "kepler-mapper",
+        "n_cubes": 6,
+        "overlap": 0.35,
+        "min_samples": 3,
+        "eps": 10.834830998522941,
+        "num_cover_nodes": 35,
+        "cluster_sizes": [
+          12,
+          19,
+          69,
+          3,
+          8,
+          35,
+          34,
+          23,
+          16,
+          4,
+          77,
+          17,
+          14,
+          10,
+          11,
+          3,
+          8,
+          5,
+          1381,
+          45,
+          6,
+          10,
+          1858,
+          5,
+          3,
+          1805,
+          1522,
+          50,
+          4,
+          40,
+          25,
+          5,
+          37,
+          26,
+          18
+        ]
+      }
+    }
+  }
+}

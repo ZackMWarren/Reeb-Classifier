@@ -1,0 +1,97 @@
+{
+  "input": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/downloaded_data/SCD-0090.h5ad",
+  "num_points": 18011,
+  "dimension": 100,
+  "methods": {
+    "dreeb": {
+      "nodes": 130,
+      "edges": 192,
+      "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0090/k25/dreeb",
+      "metadata": {
+        "method": "dreeb",
+        "k": 25,
+        "precision": 1.0,
+        "filter_method": "diffusion_eigenfunction",
+        "beta1": 63,
+        "components": 1
+      }
+    },
+    "paga": {
+      "nodes": 19,
+      "edges": 87,
+      "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0090/k25/paga",
+      "metadata": {
+        "method": "scanpy_paga",
+        "clusters": 19,
+        "knn": 15,
+        "leiden_resolution": 1.0,
+        "connectivity_threshold": 0.0,
+        "cluster_sizes": [
+          727,
+          1493,
+          140,
+          1540,
+          45,
+          497,
+          987,
+          131,
+          711,
+          559,
+          1680,
+          1122,
+          853,
+          348,
+          425,
+          1500,
+          85,
+          1849,
+          3319
+        ]
+      }
+    },
+    "mapper": {
+      "nodes": 28,
+      "edges": 5,
+      "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0090/k25/mapper",
+      "metadata": {
+        "method": "mapper",
+        "package": "kepler-mapper",
+        "n_cubes": 6,
+        "overlap": 0.35,
+        "min_samples": 3,
+        "eps": 5.3968064544223155,
+        "num_cover_nodes": 28,
+        "cluster_sizes": [
+          796,
+          9,
+          3,
+          10,
+          3,
+          68,
+          7,
+          5,
+          4,
+          3,
+          7,
+          485,
+          1470,
+          27,
+          3,
+          28,
+          4,
+          5,
+          16150,
+          7,
+          18,
+          3,
+          512,
+          3,
+          3,
+          50,
+          13,
+          3
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "input": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/downloaded_data/SCD-0077.h5ad",
+  "num_points": 20611,
+  "dimension": 100,
+  "methods": {
+    "dreeb": {
+      "nodes": 252,
+      "edges": 380,
+      "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0077/dreeb",
+      "metadata": {
+        "method": "dreeb",
+        "k": 50,
+        "precision": 1.0,
+        "filter_method": "diffusion_eigenfunction",
+        "beta1": 129,
+        "components": 1
+      }
+    },
+    "paga": {
+      "nodes": 19,
+      "edges": 127,
+      "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0077/paga",
+      "metadata": {
+        "method": "scanpy_paga",
+        "clusters": 19,
+        "knn": 15,
+        "leiden_resolution": 1.0,
+        "connectivity_threshold": 0.0,
+        "cluster_sizes": [
+          1344,
+          1444,
+          4119,
+          413,
+          555,
+          425,
+          559,
+          2321,
+          730,
+          554,
+          308,
+          494,
+          878,
+          1243,
+          637,
+          2989,
+          1055,
+          401,
+          142
+        ]
+      }
+    },
+    "mapper": {
+      "nodes": 41,
+      "edges": 122,
+      "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0077/mapper",
+      "metadata": {
+        "method": "mapper",
+        "package": "kepler-mapper",
+        "n_cubes": 6,
+        "overlap": 0.35,
+        "min_samples": 3,
+        "eps": 18.68301554386987,
+        "num_cover_nodes": 41,
+        "cluster_sizes": [
+          133,
+          286,
+          1407,
+          234,
+          189,
+          1673,
+          5000,
+          4530,
+          2199,
+          636,
+          165,
+          1163,
+          829,
+          358,
+          2721,
+          2338,
+          1703,
+          619,
+          197,
+          2015,
+          2918,
+          1056,
+          215,
+          44,
+          912,
+          22,
+          11,
+          32,
+          928,
+          1203,
+          180,
+          342,
+          6,
+          84,
+          326,
+          170,
+          5,
+          2699,
+          3,
+          4998,
+          3794
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "input": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/downloaded_data/SCD-0112.h5ad",
+  "num_points": 26313,
+  "dimension": 100,
+  "methods": {
+    "dreeb": {
+      "nodes": 12,
+      "edges": 16,
+      "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0112/dreeb",
+      "metadata": {
+        "method": "dreeb",
+        "k": 50,
+        "precision": 1.0,
+        "filter_method": "diffusion_eigenfunction",
+        "beta1": 5,
+        "components": 1
+      }
+    },
+    "paga": {
+      "nodes": 17,
+      "edges": 87,
+      "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0112/paga",
+      "metadata": {
+        "method": "scanpy_paga",
+        "clusters": 17,
+        "knn": 15,
+        "leiden_resolution": 1.0,
+        "connectivity_threshold": 0.0,
+        "cluster_sizes": [
+          2220,
+          2547,
+          1787,
+          1319,
+          1712,
+          1777,
+          1428,
+          1030,
+          672,
+          940,
+          1461,
+          2186,
+          243,
+          3663,
+          1411,
+          1369,
+          548
+        ]
+      }
+    },
+    "mapper": {
+      "nodes": 30,
+      "edges": 26,
+      "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0112/mapper",
+      "metadata": {
+        "method": "mapper",
+        "package": "kepler-mapper",
+        "n_cubes": 6,
+        "overlap": 0.35,
+        "min_samples": 3,
+        "eps": 64.00382032948293,
+        "num_cover_nodes": 30,
+        "cluster_sizes": [
+          12946,
+          5,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          5,
+          6,
+          19202,
+          3,
+          3,
+          3,
+          4,
+          3,
+          3,
+          5,
+          88,
+          3,
+          33,
+          7,
+          4,
+          4,
+          12,
+          8,
+          115,
+          4,
+          3,
+          13
+        ]
+      }
+    }
+  }
+}

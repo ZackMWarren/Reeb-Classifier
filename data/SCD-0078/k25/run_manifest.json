@@ -1,0 +1,110 @@
+{
+  "input": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/downloaded_data/SCD-0078.h5ad",
+  "num_points": 25382,
+  "dimension": 100,
+  "methods": {
+    "dreeb": {
+      "nodes": 248,
+      "edges": 383,
+      "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0078/k25/dreeb",
+      "metadata": {
+        "method": "dreeb",
+        "k": 25,
+        "precision": 1.0,
+        "filter_method": "diffusion_eigenfunction",
+        "beta1": 136,
+        "components": 1
+      }
+    },
+    "paga": {
+      "nodes": 22,
+      "edges": 144,
+      "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0078/k25/paga",
+      "metadata": {
+        "method": "scanpy_paga",
+        "clusters": 22,
+        "knn": 15,
+        "leiden_resolution": 1.0,
+        "connectivity_threshold": 0.0,
+        "cluster_sizes": [
+          1578,
+          4784,
+          1188,
+          1169,
+          2528,
+          225,
+          842,
+          625,
+          2874,
+          2262,
+          610,
+          632,
+          1975,
+          652,
+          641,
+          205,
+          387,
+          232,
+          816,
+          704,
+          152,
+          301
+        ]
+      }
+    },
+    "mapper": {
+      "nodes": 38,
+      "edges": 114,
+      "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0078/k25/mapper",
+      "metadata": {
+        "method": "mapper",
+        "package": "kepler-mapper",
+        "n_cubes": 6,
+        "overlap": 0.35,
+        "min_samples": 3,
+        "eps": 20.393681957769175,
+        "num_cover_nodes": 38,
+        "cluster_sizes": [
+          103,
+          5,
+          238,
+          703,
+          927,
+          1069,
+          1130,
+          3,
+          341,
+          651,
+          940,
+          6,
+          51,
+          381,
+          5601,
+          339,
+          736,
+          625,
+          740,
+          1369,
+          582,
+          234,
+          86,
+          80,
+          141,
+          14351,
+          486,
+          295,
+          134,
+          12,
+          7,
+          4134,
+          68,
+          276,
+          4775,
+          9428,
+          5058,
+          731
+        ]
+      }
+    }
+  }
+}

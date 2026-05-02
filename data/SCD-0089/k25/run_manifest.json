@@ -1,0 +1,112 @@
+{
+  "input": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/downloaded_data/SCD-0089.h5ad",
+  "num_points": 24025,
+  "dimension": 100,
+  "methods": {
+    "dreeb": {
+      "nodes": 189,
+      "edges": 288,
+      "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0089/k25/dreeb",
+      "metadata": {
+        "method": "dreeb",
+        "k": 25,
+        "precision": 1.0,
+        "filter_method": "diffusion_eigenfunction",
+        "beta1": 100,
+        "components": 1
+      }
+    },
+    "paga": {
+      "nodes": 18,
+      "edges": 116,
+      "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0089/k25/paga",
+      "metadata": {
+        "method": "scanpy_paga",
+        "clusters": 18,
+        "knn": 15,
+        "leiden_resolution": 1.0,
+        "connectivity_threshold": 0.0,
+        "cluster_sizes": [
+          1193,
+          2521,
+          3489,
+          1355,
+          2052,
+          3049,
+          255,
+          633,
+          2431,
+          691,
+          1693,
+          66,
+          634,
+          290,
+          2130,
+          1105,
+          304,
+          134
+        ]
+      }
+    },
+    "mapper": {
+      "nodes": 44,
+      "edges": 117,
+      "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0089/k25/mapper",
+      "metadata": {
+        "method": "mapper",
+        "package": "kepler-mapper",
+        "n_cubes": 6,
+        "overlap": 0.35,
+        "min_samples": 3,
+        "eps": 12.551184881509034,
+        "num_cover_nodes": 44,
+        "cluster_sizes": [
+          25,
+          433,
+          3234,
+          6513,
+          3384,
+          1528,
+          23,
+          3,
+          3,
+          10,
+          67,
+          32,
+          3,
+          6,
+          34,
+          34,
+          57,
+          409,
+          324,
+          498,
+          212,
+          8,
+          14,
+          17,
+          9,
+          505,
+          1993,
+          368,
+          915,
+          4151,
+          633,
+          2520,
+          3,
+          3416,
+          699,
+          1298,
+          4927,
+          5301,
+          23,
+          5491,
+          121,
+          11,
+          4007,
+          14
+        ]
+      }
+    }
+  }
+}

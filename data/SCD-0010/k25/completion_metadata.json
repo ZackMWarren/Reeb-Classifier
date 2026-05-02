@@ -1,0 +1,15 @@
+{
+    "dataset": "SCD-0010",
+    "completed_at": "2026-05-01T08:24:39-04:00",
+    "slurm_job_id": "10376081",
+    "slurm_array_task_id": "0",
+    "hostname": "a1130u37n04.mghpcc.ycrc.yale.edu",
+    "memory_tier": "small",
+    "dreeb_k": 25,
+    "allocated_memory": "64G",
+    "allocated_cpus": 8,
+    "methods": ["dreeb", "paga", "mapper"],
+    "input_file": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/downloaded_data/SCD-0010.h5ad",
+    "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0010/k25",
+    "log_file": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/logs/pointcloud_analysis/k25/small/SCD-0010_10376081_0.log"
+}

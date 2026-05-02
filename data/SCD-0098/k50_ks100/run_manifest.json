@@ -1,0 +1,21 @@
+{
+  "input": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/downloaded_data/SCD-0098.h5ad",
+  "num_points": 24081,
+  "dimension": 100,
+  "methods": {
+    "dreeb": {
+      "nodes": 40,
+      "edges": 57,
+      "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0098/k50_ks100/dreeb",
+      "metadata": {
+        "method": "dreeb",
+        "k": 50,
+        "k_smooth": 100,
+        "precision": 1.0,
+        "filter_method": "diffusion_eigenfunction",
+        "beta1": 18,
+        "components": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "input": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/downloaded_data/SCD-0015.h5ad",
+  "num_points": 1973,
+  "dimension": 100,
+  "methods": {
+    "dreeb": {
+      "nodes": 13,
+      "edges": 18,
+      "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0015/dreeb",
+      "metadata": {
+        "method": "dreeb",
+        "k": 50,
+        "precision": 1.0,
+        "filter_method": "diffusion_eigenfunction",
+        "beta1": 6,
+        "components": 1
+      }
+    },
+    "paga": {
+      "nodes": 14,
+      "edges": 42,
+      "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0015/paga",
+      "metadata": {
+        "method": "scanpy_paga",
+        "clusters": 14,
+        "knn": 15,
+        "leiden_resolution": 1.0,
+        "connectivity_threshold": 0.0,
+        "cluster_sizes": [
+          72,
+          228,
+          197,
+          200,
+          40,
+          380,
+          36,
+          67,
+          195,
+          85,
+          274,
+          71,
+          89,
+          39
+        ]
+      }
+    },
+    "mapper": {
+      "nodes": 28,
+      "edges": 50,
+      "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0015/mapper",
+      "metadata": {
+        "method": "mapper",
+        "package": "kepler-mapper",
+        "n_cubes": 6,
+        "overlap": 0.35,
+        "min_samples": 3,
+        "eps": 20.284361481037905,
+        "num_cover_nodes": 28,
+        "cluster_sizes": [
+          15,
+          6,
+          18,
+          376,
+          11,
+          37,
+          3,
+          18,
+          3,
+          50,
+          39,
+          47,
+          96,
+          288,
+          181,
+          223,
+          936,
+          11,
+          3,
+          74,
+          11,
+          4,
+          3,
+          32,
+          420,
+          8,
+          3,
+          225
+        ]
+      }
+    }
+  }
+}

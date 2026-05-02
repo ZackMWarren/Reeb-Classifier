@@ -1,0 +1,96 @@
+{
+  "input": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/downloaded_data/SCD-0110.h5ad",
+  "num_points": 20779,
+  "dimension": 100,
+  "methods": {
+    "dreeb": {
+      "nodes": 18,
+      "edges": 25,
+      "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0110/dreeb",
+      "metadata": {
+        "method": "dreeb",
+        "k": 50,
+        "precision": 1.0,
+        "filter_method": "diffusion_eigenfunction",
+        "beta1": 8,
+        "components": 1
+      }
+    },
+    "paga": {
+      "nodes": 14,
+      "edges": 77,
+      "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0110/paga",
+      "metadata": {
+        "method": "scanpy_paga",
+        "clusters": 14,
+        "knn": 15,
+        "leiden_resolution": 1.0,
+        "connectivity_threshold": 0.0,
+        "cluster_sizes": [
+          1308,
+          1578,
+          1500,
+          1386,
+          1840,
+          2307,
+          1380,
+          174,
+          1889,
+          1627,
+          2408,
+          1860,
+          261,
+          1261
+        ]
+      }
+    },
+    "mapper": {
+      "nodes": 32,
+      "edges": 21,
+      "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0110/mapper",
+      "metadata": {
+        "method": "mapper",
+        "package": "kepler-mapper",
+        "n_cubes": 6,
+        "overlap": 0.35,
+        "min_samples": 3,
+        "eps": 67.03133451438974,
+        "num_cover_nodes": 32,
+        "cluster_sizes": [
+          11732,
+          3,
+          3,
+          3,
+          5,
+          4,
+          3,
+          13306,
+          8,
+          4,
+          3,
+          6,
+          3,
+          3,
+          546,
+          3,
+          76,
+          4,
+          11,
+          3,
+          71,
+          28,
+          8,
+          3,
+          5,
+          1034,
+          7,
+          3,
+          3,
+          3,
+          4,
+          3
+        ]
+      }
+    }
+  }
+}

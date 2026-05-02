@@ -1,0 +1,112 @@
+{
+  "input": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/downloaded_data/SCD-0096.h5ad",
+  "num_points": 24792,
+  "dimension": 100,
+  "methods": {
+    "dreeb": {
+      "nodes": 38,
+      "edges": 55,
+      "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0096/dreeb",
+      "metadata": {
+        "method": "dreeb",
+        "k": 50,
+        "precision": 1.0,
+        "filter_method": "diffusion_eigenfunction",
+        "beta1": 18,
+        "components": 1
+      }
+    },
+    "paga": {
+      "nodes": 16,
+      "edges": 103,
+      "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0096/paga",
+      "metadata": {
+        "method": "scanpy_paga",
+        "clusters": 16,
+        "knn": 15,
+        "leiden_resolution": 1.0,
+        "connectivity_threshold": 0.0,
+        "cluster_sizes": [
+          2109,
+          3518,
+          1990,
+          2710,
+          2210,
+          2861,
+          823,
+          1684,
+          2162,
+          74,
+          450,
+          994,
+          457,
+          1070,
+          290,
+          1390
+        ]
+      }
+    },
+    "mapper": {
+      "nodes": 46,
+      "edges": 127,
+      "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0096/mapper",
+      "metadata": {
+        "method": "mapper",
+        "package": "kepler-mapper",
+        "n_cubes": 6,
+        "overlap": 0.35,
+        "min_samples": 3,
+        "eps": 14.752147229249552,
+        "num_cover_nodes": 46,
+        "cluster_sizes": [
+          1736,
+          784,
+          4827,
+          6175,
+          1431,
+          3,
+          720,
+          4,
+          3,
+          1012,
+          12,
+          5,
+          352,
+          1653,
+          3246,
+          7,
+          108,
+          2471,
+          3,
+          1367,
+          10,
+          3,
+          4,
+          577,
+          54,
+          73,
+          1279,
+          5437,
+          3,
+          3,
+          4337,
+          336,
+          733,
+          3,
+          250,
+          3278,
+          2785,
+          49,
+          1582,
+          1189,
+          481,
+          1836,
+          3312,
+          2006,
+          3,
+          2186
+        ]
+      }
+    }
+  }
+}

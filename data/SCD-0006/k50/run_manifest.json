@@ -1,0 +1,76 @@
+{
+  "input": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/downloaded_data/SCD-0006.h5ad",
+  "num_points": 1163,
+  "dimension": 100,
+  "methods": {
+    "dreeb": {
+      "nodes": 2,
+      "edges": 1,
+      "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0006/dreeb",
+      "metadata": {
+        "method": "dreeb",
+        "k": 50,
+        "precision": 1.0,
+        "filter_method": "diffusion_eigenfunction",
+        "beta1": 0,
+        "components": 1
+      }
+    },
+    "paga": {
+      "nodes": 10,
+      "edges": 42,
+      "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0006/paga",
+      "metadata": {
+        "method": "scanpy_paga",
+        "clusters": 10,
+        "knn": 15,
+        "leiden_resolution": 1.0,
+        "connectivity_threshold": 0.0,
+        "cluster_sizes": [
+          107,
+          158,
+          62,
+          146,
+          263,
+          58,
+          104,
+          195,
+          27,
+          43
+        ]
+      }
+    },
+    "mapper": {
+      "nodes": 16,
+      "edges": 36,
+      "output_dir": "/nfs/roberts/pi/pi_sk2433/shared/Geomancer_2026_singlecell/algorithm_run_outputs/SCD-0006/mapper",
+      "metadata": {
+        "method": "mapper",
+        "package": "kepler-mapper",
+        "n_cubes": 6,
+        "overlap": 0.35,
+        "min_samples": 3,
+        "eps": 17.275389062998652,
+        "num_cover_nodes": 16,
+        "cluster_sizes": [
+          4,
+          22,
+          27,
+          29,
+          23,
+          292,
+          427,
+          431,
+          296,
+          93,
+          17,
+          278,
+          346,
+          6,
+          149,
+          41
+        ]
+      }
+    }
+  }
+}
