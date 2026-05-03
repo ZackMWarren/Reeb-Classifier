@@ -6,32 +6,13 @@ from enum import IntEnum
 
 import numpy as np
 
-
-class TopologyClass(IntEnum):
-    CLUSTERS          = 0
-    SINGLE_TRAJECTORY = 1
-    MULTI_BRANCHING   = 2
-    # CYCLIC            = 3
-    # SURFACE           = 4
-    # ARCHETYPAL        = 5
-
-
-NUM_CLASSES = len(TopologyClass)
-CLASS_ORDER = [c.name for c in TopologyClass]
-
-RAW_LABEL_MAP: dict[str, str | None] = {
-    "clusters":          "CLUSTERS",
-    "blob":              None,
-    "simple_traj":       "SINGLE_TRAJECTORY",
-    "bifurcation":       None,
-    "multi_branch":      "MULTI_BRANCHING",
-    "complex_tree":      None,
-    "cyclic":            None,
-    "surface":           None,
-    "archetypal":        None,
-    "outlier_dominated": None,
-    "batch_effect":      None,
+TAG_TO_CLASS: dict[str, str] = {
+    "clusters":    "CLUSTERS",
+    "simple_traj": "SINGLE_TRAJECTORY",
+    "multi_branch": "MULTI_BRANCHING",
 }
+
+CLASS_ORDER = [v for v in TAG_TO_CLASS.values()]
 
 VALID_METHODS = ("dreeb", "mapper", "paga")
 VALID_K       = ("k25", "k50", "k50_ks100")
@@ -40,11 +21,74 @@ GRID_BINS = (32, 32)
 SIGMA     = 0.05
 
 
+# ── Annotation loading ────────────────────────────────────────────────────────
+
+def _majority_vote(
+    per_annotator: dict[str, dict[str, list[str]]],
+    threshold: float = 0.5,
+) -> dict[str, list[str]]:
+    """Merge per-annotator label dicts via tag-level majority vote """
+    all_samples: set[str] = set()
+    for labels in per_annotator.values():
+        all_samples.update(labels.keys())
+
+    merged: dict[str, list[str]] = {}
+    for sample in all_samples:
+        annotator_labels = [
+            labels[sample] for labels in per_annotator.values() if sample in labels
+        ]
+        n = len(annotator_labels)
+        tag_counts: dict[str, int] = {}
+        for tags in annotator_labels:
+            for tag in tags:
+                tag_counts[tag] = tag_counts.get(tag, 0) + 1
+        merged[sample] = [tag for tag, count in tag_counts.items() if count / n >= threshold]
+
+    return merged
+
+
+def load_annotations(
+    annotations_dir: str,
+    threshold: float = 0.5,
+    aggregation: str = "majority_vote",
+    valid_classes: tuple[str, ...] = tuple(CLASS_ORDER),
+) -> dict[str, list[str]]:
+    """Load labels from all annotator subdirectories and merge via majority vote.
+    Tags that do not map to a class in `valid_classes` are discarded in discover_samples.
+    """
+    per_annotator: dict[str, dict[str, list[str]]] = {}
+    for entry in sorted(os.scandir(annotations_dir), key=lambda e: e.name):
+        if not entry.is_dir():
+            continue
+        labels_path = os.path.join(entry.path, "labels.json")
+        if not os.path.exists(labels_path):
+            continue
+        with open(labels_path) as f:
+            per_annotator[entry.name] = json.load(f)["labels"]
+
+    if not per_annotator:
+        raise FileNotFoundError(
+            f"No annotator subdirectories with labels.json found in '{annotations_dir}'"
+        )
+
+    print(f"Annotators: {sorted(per_annotator)}")
+    if aggregation == "majority_vote":
+        merged = _majority_vote(per_annotator, threshold=threshold)
+    else:
+        raise ValueError(f"Unknown aggregation '{aggregation}'. Choices: majority_vote")
+
+    valid_class_set = set(valid_classes)
+    return {
+        sample: [tag for tag in tags if TAG_TO_CLASS.get(tag) in valid_class_set]
+        for sample, tags in merged.items()
+    }
+
+
 # ── Sample discovery ──────────────────────────────────────────────────────────
 
 def discover_samples(
     data_dir: str,
-    labels_file: str,
+    annotations_dir: str,
     k: str = "k25",
     method: str = "dreeb",
 ) -> list[tuple[str, list[float]]]:
@@ -56,8 +100,7 @@ def discover_samples(
             f"for method='{method}' / k='{k}'"
         )
 
-    with open(labels_file) as f:
-        raw_labels: dict[str, list[str]] = json.load(f)["labels"]
+    raw_labels = load_annotations(annotations_dir)
 
     kept, dropped_unlabelled, dropped_no_class = [], [], []
 
@@ -67,11 +110,7 @@ def discover_samples(
             dropped_unlabelled.append(name)
             continue
 
-        mapped = {
-            RAW_LABEL_MAP[tag]
-            for tag in raw_labels[name]
-            if RAW_LABEL_MAP.get(tag) is not None
-        }
+        mapped = {TAG_TO_CLASS[tag] for tag in raw_labels[name] if tag in TAG_TO_CLASS}
         if not mapped:
             dropped_no_class.append(f"{name}: {raw_labels[name]}")
             continue

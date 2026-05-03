@@ -19,6 +19,7 @@ Usage
 
 import argparse
 import json
+import os
 import pathlib
 import sys
 from datetime import datetime
@@ -119,7 +120,7 @@ def main() -> None:
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
     )
     parser.add_argument("--data-dir",    default="data",  help="Root data directory")
-    parser.add_argument("--labels-json", default=None,    help="Labels JSON path (auto-detected if omitted)")
+    parser.add_argument("--annotations-dir", default=None, help="Annotations directory (default: <root>/annotations)")
     parser.add_argument(
         "--models", nargs="+", default=list(MODELS), choices=list(MODELS),
         metavar="MODEL", help=f"Models to run. Choices: {MODELS}",
@@ -139,15 +140,14 @@ def main() -> None:
     root     = pathlib.Path(__file__).parent
     data_dir = str(root / args.data_dir)
 
-    if args.labels_json:
-        labels_json = args.labels_json
+    if args.annotations_dir:
+        annotations_dir = args.annotations_dir
     else:
-        candidates = sorted(root.glob("phate_gallery_labels*/labels.json"))
-        if not candidates:
-            print("ERROR: labels JSON not found. Use --labels-json.", file=sys.stderr)
+        annotations_dir = str(root / "annotations")
+        if not os.path.isdir(annotations_dir):
+            print("ERROR: annotations directory not found. Use --annotations-dir.", file=sys.stderr)
             sys.exit(1)
-        labels_json = str(candidates[-1])
-        print(f"Labels: {labels_json}\n")
+        print(f"Annotations: {annotations_dir}\n")
 
     output_dir = pathlib.Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -165,7 +165,7 @@ def main() -> None:
             print(f"#  k={k}  method={method}")
             print(f"{'#'*60}")
 
-            samples = discover_samples(data_dir, labels_json, k=k, method=method)
+            samples = discover_samples(data_dir, annotations_dir, k=k, method=method)
             if not samples:
                 print("  No samples found — skipping.")
                 continue

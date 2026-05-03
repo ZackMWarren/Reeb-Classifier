@@ -1,6 +1,6 @@
 # PHATE Gallery Labels Export
 
-Exported: 2026-05-02T04:43:22.263Z
+Exported: 2026-05-03T17:24:18.847Z
 
 ## Files
 - phate_gallery_data.json - Full export (for importing back into gallery)
@@ -12,5 +12,5 @@ Copy labels.json to:
 /nfs/roberts/pi/pi_sk2433/Geomancer_2025_CellXGenes/labels/
 
 ## Statistics
-- Total labeled datasets: 100
-- Total flagged datasets: 7
+- Total labeled datasets: 101
+- Total flagged datasets: 18

@@ -1,0 +1,73 @@
+[
+  {
+    "ts": "2026-05-01T03:07:02.403Z",
+    "action": "SESSION_START",
+    "sessionId": "session_adzfv51m6_1777604822400"
+  },
+  {
+    "ts": "2026-05-01T23:41:22.460Z",
+    "action": "SESSION_START",
+    "sessionId": "session_528fzwx84_1777678882459"
+  },
+  {
+    "ts": "2026-05-02T04:45:15.593Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0001",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "multi_branch",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-02T04:45:16.732Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0001",
+    "structureType": "clusters",
+    "added": false,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-02T08:39:14.255Z",
+    "action": "SESSION_START",
+    "sessionId": "session_ho055nib5_1777711154255"
+  },
+  {
+    "ts": "2026-05-02T09:08:15.005Z",
+    "action": "SESSION_START",
+    "sessionId": "session_la1scc1un_1777712895005"
+  },
+  {
+    "ts": "2026-05-02T15:52:02.476Z",
+    "action": "SESSION_START",
+    "sessionId": "session_wrxw71438_1777737122476"
+  },
+  {
+    "ts": "2026-05-02T17:50:22.944Z",
+    "action": "SESSION_START",
+    "sessionId": "session_ca6o2np4q_1777744222944"
+  },
+  {
+    "ts": "2026-05-02T17:53:41.964Z",
+    "action": "SESSION_START",
+    "sessionId": "session_s0uoooqg3_1777744421964"
+  },
+  {
+    "ts": "2026-05-03T00:46:22.115Z",
+    "action": "SESSION_START",
+    "sessionId": "session_eso56l82v_1777769182111"
+  },
+  {
+    "ts": "2026-05-03T02:56:37.501Z",
+    "action": "SESSION_START",
+    "sessionId": "session_5rwx250lh_1777776997500"
+  },
+  {
+    "ts": "2026-05-03T17:23:45.677Z",
+    "action": "SESSION_START",
+    "sessionId": "session_jnpdem8x2_1777829025676"
+  }
+]
