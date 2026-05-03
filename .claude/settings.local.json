@@ -5,7 +5,8 @@
       "Bash(pip3 show *)",
       "Bash(conda run *)",
       "Bash(conda env *)",
-      "Bash(chmod +x *)"
+      "Bash(chmod +x *)",
+      "Bash(python *)"
     ]
   }
 }

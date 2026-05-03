@@ -34,10 +34,10 @@ from dataset import (
 )
 import torch
 
-MODELS = ("mlp", "svm", "gnn")
+MODELS = ("mlp", "svm", "image", "gnn")
 
-_FEATURE_MODELS = {"mlp", "svm"}   # take (X, Y) numpy arrays
-_GRAPH_MODELS   = {"gnn"}          # take raw samples list
+_FEATURE_MODELS = {"mlp", "svm", "image"}  # take (X, Y) numpy arrays
+_GRAPH_MODELS   = {"gnn"}                  # take raw samples list
 
 
 # ── Model loader ──────────────────────────────────────────────────────────────
@@ -49,6 +49,9 @@ def _load_model(name: str):
     if name == "svm":
         from models import persistence_svm
         return persistence_svm
+    if name == "image":
+        from models import persistence_image
+        return persistence_image
     if name == "gnn":
         from models import gnn
         return gnn
