@@ -36,8 +36,9 @@ import torch
 
 MODELS = ("mlp", "svm", "image", "gnn")
 
-_FEATURE_MODELS = {"mlp", "svm", "image"}  # take (X, Y) numpy arrays
+_FEATURE_MODELS = {"mlp", "svm"}  # take (X, Y) numpy arrays of barcodes
 _GRAPH_MODELS   = {"gnn"}                  # take raw samples list
+_IMAGE_MODELS = {"image"}                # take (X, Y) numpy arrays of persistence images
 
 
 # ── Model loader ──────────────────────────────────────────────────────────────
@@ -169,12 +170,20 @@ def main() -> None:
                 print("  No samples found — skipping.")
                 continue
 
-            X, Y = None, None
+            X_feat, Y_feat = None, None
+            X_img,  Y_img  = None, None
+
             feature_models = [m for m in args.models if m in _FEATURE_MODELS]
             if feature_models:
                 print("\nBuilding feature matrix...")
-                X, Y = build_feature_matrix(samples, k=k, method=method)
-                print(f"X: {X.shape}  Y: {Y.shape}\n")
+                X_feat, Y_feat = build_feature_matrix(samples, k=k, method=method)
+                print(f"X: {X_feat.shape}  Y: {Y_feat.shape}\n")
+
+            if "image" in args.models:
+                print("\nBuilding persistence images...")
+                from dataset import build_persistence_images
+                X_img, Y_img = build_persistence_images(samples, k=k, method=method)
+                print(f"X_img: {X_img.shape}  Y_img: {Y_img.shape}\n")
 
             for model_name in args.models:
                 run_key = f"{model_name}|{method}|{k}"
@@ -190,9 +199,11 @@ def main() -> None:
                         k_folds=args.cv_folds, device=device,
                     )
                 elif model_name == "mlp":
-                    fold_results = mod.run(X, Y, k_folds=args.cv_folds, device=device)
+                    fold_results = mod.run(X_feat, Y_feat, k_folds=args.cv_folds, device=device)
+                elif model_name in _FEATURE_MODELS:
+                    fold_results = mod.run(X_feat, Y_feat, k_folds=args.cv_folds)
                 else:
-                    fold_results = mod.run(X, Y, k_folds=args.cv_folds)
+                    fold_results = mod.run(X_img, Y_img, k_folds=args.cv_folds)
 
                 agg = _aggregate(fold_results)
                 all_results[run_key] = {

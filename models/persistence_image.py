@@ -21,6 +21,7 @@ import numpy as np
 from sklearn.metrics import roc_auc_score
 from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVC
+from sklearn.decomposition import PCA
 
 from dataset import CLASS_ORDER, NUM_CLASSES
 from eval import binary_metrics, make_kfold, print_fold_header, summarize_binary_folds
@@ -33,20 +34,21 @@ def run(
 ) -> dict[str, list[dict]]:
     """
     Run k-fold binary CV for each TopologyClass using an RBF-SVM.
-
-    Args:
-        X:       Feature matrix [n_samples, feat_dim] — raw, not yet scaled.
-        Y:       Binary label matrix [n_samples, NUM_CLASSES].
-        k_folds: Number of CV folds.
-
+    
     Returns:
         fold_results[class_name] = list of per-fold metric dicts, each with
         keys: accuracy, f1, auc, precision, recall.
     """
     scaler   = StandardScaler()
-    X_scaled = scaler.fit_transform(X)
+    X_scaled = np.nan_to_num(scaler.fit_transform(X), nan=0.0, posinf=0.0, neginf=0.0)
 
-    kf           = make_kfold(k_folds)
+    n_components = min(50, X_scaled.shape[0] - 1)  # can't exceed n_samples
+    pca = PCA(n_components=n_components, random_state=42)
+    X_scaled = pca.fit_transform(X_scaled)
+    print(f"PCA: {X_scaled.shape[1]} components, "
+        f"{pca.explained_variance_ratio_.sum():.1%} variance retained")
+
+    kf = make_kfold(k_folds)
     fold_results = {cls: [] for cls in CLASS_ORDER}
 
     for cls_idx, cls_name in enumerate(CLASS_ORDER):
@@ -60,19 +62,18 @@ def run(
             print_fold_header(fold, k_folds)
 
             X_train, X_test = X_scaled[train_idx], X_scaled[test_idx]
-            y_train         = y_binary[train_idx]
-            y_test          = y_binary[test_idx]
+            y_train = y_binary[train_idx]
+            y_test = y_binary[test_idx]
 
             # Skip fold if training split has only one class
             if len(np.unique(y_train)) < 2:
                 print(f"  Skipping fold {fold + 1}: training split has only one class.")
                 continue
 
-            clf = SVC(kernel="rbf", class_weight="balanced",
-                      gamma="scale", probability=True)
+            clf = SVC(kernel="rbf", class_weight="balanced", gamma="scale", probability=True)
             clf.fit(X_train, y_train)
 
-            y_pred  = clf.predict(X_test)
+            y_pred = clf.predict(X_test)
             y_proba = clf.predict_proba(X_test)[:, 1]
 
             m = binary_metrics(y_test, y_pred, y_score=y_proba)
