@@ -13,6 +13,7 @@ TAG_TO_CLASS: dict[str, str] = {
 }
 
 CLASS_ORDER = [v for v in TAG_TO_CLASS.values()]
+NUM_CLASSES = len(CLASS_ORDER)
 
 VALID_METHODS = ("dreeb", "mapper", "paga")
 VALID_K       = ("k25", "k50", "k50_ks100")
