@@ -1,0 +1,1069 @@
+[
+  {
+    "ts": "2026-05-02T11:06:07.550Z",
+    "action": "SESSION_START",
+    "sessionId": "session_o5adwfx5b_1777719967550"
+  },
+  {
+    "ts": "2026-05-02T11:11:28.318Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0001",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:11:29.015Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0002",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:11:29.608Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0003",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:11:32.684Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0004",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:11:33.434Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0005",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:11:33.944Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0006",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:11:45.652Z",
+    "action": "CLEAR_ALL",
+    "previousLabels": 6
+  },
+  {
+    "ts": "2026-05-02T11:12:20.985Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0001",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-02T11:14:00.823Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0112",
+    "structureType": "blob",
+    "added": true,
+    "labels": [
+      "blob"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:14:18.927Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0111",
+    "structureType": "blob",
+    "added": true,
+    "labels": [
+      "blob"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:14:59.263Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0110",
+    "structureType": "blob",
+    "added": true,
+    "labels": [
+      "blob"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:15:50.738Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0002",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:16:04.831Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0004",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:16:06.593Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0005",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:16:08.063Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0006",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:16:57.070Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0008",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:17:02.986Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0009",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:17:18.798Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0010",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:17:33.528Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0011",
+    "structureType": "surface",
+    "added": true,
+    "labels": [
+      "surface"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:17:45.717Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0013",
+    "structureType": "blob",
+    "added": true,
+    "labels": [
+      "blob"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:17:56.726Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0014",
+    "structureType": "complex_tree",
+    "added": true,
+    "labels": [
+      "complex_tree"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:19:19.867Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0019",
+    "structureType": "batch_effect",
+    "added": true,
+    "labels": [
+      "batch_effect"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:19:36.809Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0023",
+    "structureType": "batch_effect",
+    "added": true,
+    "labels": [
+      "batch_effect"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:19:58.049Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0053",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:20:05.032Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0054",
+    "structureType": "outlier_dominated",
+    "added": true,
+    "labels": [
+      "outlier_dominated"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:20:19.004Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0056",
+    "structureType": "outlier_dominated",
+    "added": true,
+    "labels": [
+      "outlier_dominated"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:20:30.389Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0057",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:20:34.650Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0061",
+    "structureType": "outlier_dominated",
+    "added": true,
+    "labels": [
+      "outlier_dominated"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:20:36.067Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0062",
+    "structureType": "outlier_dominated",
+    "added": true,
+    "labels": [
+      "outlier_dominated"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:20:47.145Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0063",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:20:52.163Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0064",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:21:11.709Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0067",
+    "structureType": "outlier_dominated",
+    "added": true,
+    "labels": [
+      "outlier_dominated"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:21:22.374Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0068",
+    "structureType": "batch_effect",
+    "added": true,
+    "labels": [
+      "batch_effect"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:21:24.257Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0069",
+    "structureType": "batch_effect",
+    "added": true,
+    "labels": [
+      "batch_effect"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:21:29.829Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0070",
+    "structureType": "batch_effect",
+    "added": true,
+    "labels": [
+      "batch_effect"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:21:32.867Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0071",
+    "structureType": "batch_effect",
+    "added": true,
+    "labels": [
+      "batch_effect"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:21:45.242Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0074",
+    "structureType": "batch_effect",
+    "added": true,
+    "labels": [
+      "batch_effect"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:21:46.480Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0075",
+    "structureType": "batch_effect",
+    "added": true,
+    "labels": [
+      "batch_effect"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:21:47.395Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0076",
+    "structureType": "batch_effect",
+    "added": true,
+    "labels": [
+      "batch_effect"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:22:16.310Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0079",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:22:27.903Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0087",
+    "structureType": "blob",
+    "added": true,
+    "labels": [
+      "blob"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:22:31.953Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0088",
+    "structureType": "blob",
+    "added": true,
+    "labels": [
+      "blob"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:22:48.514Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0089",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:23:08.194Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0097",
+    "structureType": "blob",
+    "added": true,
+    "labels": [
+      "blob"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:23:09.896Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0098",
+    "structureType": "blob",
+    "added": true,
+    "labels": [
+      "blob"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:23:10.781Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0099",
+    "structureType": "blob",
+    "added": true,
+    "labels": [
+      "blob"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:23:39.170Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0083",
+    "structureType": "batch_effect",
+    "added": true,
+    "labels": [
+      "batch_effect"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:23:57.613Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0084",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:24:07.970Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0085",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:24:14.975Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0082",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:47:33.230Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0020",
+    "structureType": "batch_effect",
+    "added": true,
+    "labels": [
+      "batch_effect"
+    ]
+  },
+  {
+    "ts": "2026-05-02T11:47:51.689Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0021",
+    "structureType": "batch_effect",
+    "added": true,
+    "labels": [
+      "batch_effect"
+    ]
+  },
+  {
+    "ts": "2026-05-02T23:50:15.350Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0096",
+    "structureType": "surface",
+    "added": true,
+    "labels": [
+      "surface"
+    ]
+  },
+  {
+    "ts": "2026-05-02T23:51:03.966Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0066",
+    "structureType": "outlier_dominated",
+    "added": true,
+    "labels": [
+      "outlier_dominated"
+    ]
+  },
+  {
+    "ts": "2026-05-02T23:51:08.166Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0065",
+    "structureType": "outlier_dominated",
+    "added": true,
+    "labels": [
+      "outlier_dominated"
+    ]
+  },
+  {
+    "ts": "2026-05-02T23:51:10.491Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0060",
+    "structureType": "outlier_dominated",
+    "added": true,
+    "labels": [
+      "outlier_dominated"
+    ]
+  },
+  {
+    "ts": "2026-05-02T23:52:12.872Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0058",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-02T23:52:25.585Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0059",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-02T23:52:57.979Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0055",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-02T23:53:14.545Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0052",
+    "structureType": "outlier_dominated",
+    "added": true,
+    "labels": [
+      "outlier_dominated"
+    ]
+  },
+  {
+    "ts": "2026-05-02T23:53:33.244Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0050",
+    "structureType": "outlier_dominated",
+    "added": true,
+    "labels": [
+      "outlier_dominated"
+    ]
+  },
+  {
+    "ts": "2026-05-02T23:54:12.794Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0012",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-02T23:54:30.421Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0007",
+    "structureType": "surface",
+    "added": true,
+    "labels": [
+      "surface"
+    ]
+  },
+  {
+    "ts": "2026-05-02T23:59:32.237Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0016",
+    "structureType": "surface",
+    "added": true,
+    "labels": [
+      "surface"
+    ]
+  },
+  {
+    "ts": "2026-05-02T23:59:35.147Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0017",
+    "structureType": "surface",
+    "added": true,
+    "labels": [
+      "surface"
+    ]
+  },
+  {
+    "ts": "2026-05-02T23:59:54.595Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0018",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-02T23:59:57.461Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0022",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-02T23:59:59.230Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0024",
+    "structureType": "surface",
+    "added": true,
+    "labels": [
+      "surface"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:00:00.955Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0025",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:00:16.158Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0026",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:00:21.123Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0027",
+    "structureType": "surface",
+    "added": true,
+    "labels": [
+      "surface"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:00:29.232Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0028",
+    "structureType": "batch_effect",
+    "added": true,
+    "labels": [
+      "batch_effect"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:00:53.202Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0029",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:00:55.819Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0030",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:01:04.122Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0033",
+    "structureType": "batch_effect",
+    "added": true,
+    "labels": [
+      "batch_effect"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:01:49.138Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0045",
+    "structureType": "surface",
+    "added": true,
+    "labels": [
+      "surface"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:02:06.351Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0046",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:02:16.094Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0047",
+    "structureType": "complex_tree",
+    "added": true,
+    "labels": [
+      "complex_tree"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:02:18.186Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0048",
+    "structureType": "complex_tree",
+    "added": true,
+    "labels": [
+      "complex_tree"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:02:20.466Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0049",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:02:27.263Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0051",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:02:30.816Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0072",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:02:33.570Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0073",
+    "structureType": "blob",
+    "added": true,
+    "labels": [
+      "blob"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:02:36.749Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0077",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:03:26.287Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0078",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:03:39.758Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0080",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:03:47.602Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0081",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:03:55.636Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0086",
+    "structureType": "surface",
+    "added": true,
+    "labels": [
+      "surface"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:04:22.928Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0090",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:04:34.915Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0091",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:04:51.632Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0092",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:05:02.920Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0093",
+    "structureType": "batch_effect",
+    "added": true,
+    "labels": [
+      "batch_effect"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:05:16.369Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0094",
+    "structureType": "surface",
+    "added": true,
+    "labels": [
+      "surface"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:05:33.395Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0095",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:05:42.162Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0100",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:06:04.168Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0101",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:06:12.575Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0102",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:06:41.091Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0103",
+    "structureType": "batch_effect",
+    "added": true,
+    "labels": [
+      "batch_effect"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:06:51.276Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0104",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:07:10.193Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0105",
+    "structureType": "surface",
+    "added": true,
+    "labels": [
+      "surface"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:07:16.260Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0106",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:07:45.706Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0107",
+    "structureType": "surface",
+    "added": true,
+    "labels": [
+      "surface"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:07:57.105Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0108",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:08:04.283Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0109",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:08:19.380Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0001",
+    "structureType": "surface",
+    "added": true,
+    "labels": [
+      "surface"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:08:28.576Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0003",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T00:08:41.499Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0015",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  }
+]

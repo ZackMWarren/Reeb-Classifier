@@ -19,6 +19,7 @@ Usage
 
 import argparse
 import json
+import os
 import pathlib
 import sys
 from datetime import datetime
@@ -34,10 +35,11 @@ from dataset import (
 )
 import torch
 
-MODELS = ("mlp", "svm", "gnn")
+MODELS = ("mlp", "svm", "image", "gnn")
 
-_FEATURE_MODELS = {"mlp", "svm"}   # take (X, Y) numpy arrays
-_GRAPH_MODELS   = {"gnn"}          # take raw samples list
+_FEATURE_MODELS = {"mlp", "svm"}  # take (X, Y) numpy arrays of barcodes
+_GRAPH_MODELS   = {"gnn"}                  # take raw samples list
+_IMAGE_MODELS = {"image"}                # take (X, Y) numpy arrays of persistence images
 
 
 # ── Model loader ──────────────────────────────────────────────────────────────
@@ -49,6 +51,9 @@ def _load_model(name: str):
     if name == "svm":
         from models import persistence_svm
         return persistence_svm
+    if name == "image":
+        from models import persistence_image
+        return persistence_image
     if name == "gnn":
         from models import gnn
         return gnn
@@ -115,7 +120,7 @@ def main() -> None:
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
     )
     parser.add_argument("--data-dir",    default="data",  help="Root data directory")
-    parser.add_argument("--labels-json", default=None,    help="Labels JSON path (auto-detected if omitted)")
+    parser.add_argument("--annotations-dir", default=None, help="Annotations directory (default: <root>/annotations)")
     parser.add_argument(
         "--models", nargs="+", default=list(MODELS), choices=list(MODELS),
         metavar="MODEL", help=f"Models to run. Choices: {MODELS}",
@@ -135,15 +140,14 @@ def main() -> None:
     root     = pathlib.Path(__file__).parent
     data_dir = str(root / args.data_dir)
 
-    if args.labels_json:
-        labels_json = args.labels_json
+    if args.annotations_dir:
+        annotations_dir = args.annotations_dir
     else:
-        candidates = sorted(root.glob("phate_gallery_labels*/labels.json"))
-        if not candidates:
-            print("ERROR: labels JSON not found. Use --labels-json.", file=sys.stderr)
+        annotations_dir = str(root / "annotations")
+        if not os.path.isdir(annotations_dir):
+            print("ERROR: annotations directory not found. Use --annotations-dir.", file=sys.stderr)
             sys.exit(1)
-        labels_json = str(candidates[-1])
-        print(f"Labels: {labels_json}\n")
+        print(f"Annotations: {annotations_dir}\n")
 
     output_dir = pathlib.Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -161,17 +165,25 @@ def main() -> None:
             print(f"#  k={k}  method={method}")
             print(f"{'#'*60}")
 
-            samples = discover_samples(data_dir, labels_json, k=k, method=method)
+            samples = discover_samples(data_dir, annotations_dir, k=k, method=method)
             if not samples:
                 print("  No samples found — skipping.")
                 continue
 
-            X, Y = None, None
+            X_feat, Y_feat = None, None
+            X_img,  Y_img  = None, None
+
             feature_models = [m for m in args.models if m in _FEATURE_MODELS]
             if feature_models:
                 print("\nBuilding feature matrix...")
-                X, Y = build_feature_matrix(samples, k=k, method=method)
-                print(f"X: {X.shape}  Y: {Y.shape}\n")
+                X_feat, Y_feat = build_feature_matrix(samples, k=k, method=method)
+                print(f"X: {X_feat.shape}  Y: {Y_feat.shape}\n")
+
+            if "image" in args.models:
+                print("\nBuilding persistence images...")
+                from dataset import build_persistence_images
+                X_img, Y_img = build_persistence_images(samples, k=k, method=method)
+                print(f"X_img: {X_img.shape}  Y_img: {Y_img.shape}\n")
 
             for model_name in args.models:
                 run_key = f"{model_name}|{method}|{k}"
@@ -187,9 +199,11 @@ def main() -> None:
                         k_folds=args.cv_folds, device=device,
                     )
                 elif model_name == "mlp":
-                    fold_results = mod.run(X, Y, k_folds=args.cv_folds, device=device)
+                    fold_results = mod.run(X_feat, Y_feat, k_folds=args.cv_folds, device=device)
+                elif model_name in _FEATURE_MODELS:
+                    fold_results = mod.run(X_feat, Y_feat, k_folds=args.cv_folds)
                 else:
-                    fold_results = mod.run(X, Y, k_folds=args.cv_folds)
+                    fold_results = mod.run(X_img, Y_img, k_folds=args.cv_folds)
 
                 agg = _aggregate(fold_results)
                 all_results[run_key] = {

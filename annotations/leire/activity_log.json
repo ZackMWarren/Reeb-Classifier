@@ -1,0 +1,2735 @@
+[
+  {
+    "ts": "2026-05-01T01:29:19.560Z",
+    "action": "SESSION_START",
+    "sessionId": "session_wtu1coi7j_1777598959560"
+  },
+  {
+    "ts": "2026-05-01T01:29:25.010Z",
+    "action": "SESSION_START",
+    "sessionId": "session_kyzdt27jw_1777598965010"
+  },
+  {
+    "ts": "2026-05-01T01:39:19.187Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0001",
+    "annotationType": "density",
+    "value": "low"
+  },
+  {
+    "ts": "2026-05-01T01:45:02.834Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0001",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-01T01:45:09.362Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0001",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "bifurcation",
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-01T01:45:10.442Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0001",
+    "structureType": "bifurcation",
+    "added": false,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-01T01:53:40.065Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0001",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-01T01:54:02.300Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0002",
+    "structureType": "cyclic",
+    "added": true,
+    "labels": [
+      "cyclic"
+    ]
+  },
+  {
+    "ts": "2026-05-01T01:54:11.586Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0002",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "cyclic",
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-01T01:54:43.667Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0003",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-01T01:54:49.108Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0003",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "multi_branch",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-01T01:55:09.484Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0003",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "multi_branch",
+      "clusters",
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-01T01:55:10.090Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0003",
+    "structureType": "multi_branch",
+    "added": false,
+    "labels": [
+      "clusters",
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-01T01:59:39.732Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0002",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-01T01:59:42.947Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0003",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T22:59:27.436Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0005",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T22:59:35.698Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0004",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T22:59:40.502Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0004",
+    "annotationType": "density",
+    "value": "low"
+  },
+  {
+    "ts": "2026-05-03T22:59:42.098Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0005",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T22:59:43.946Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0005",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T22:59:56.505Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0006",
+    "structureType": "outlier_dominated",
+    "added": true,
+    "labels": [
+      "outlier_dominated"
+    ]
+  },
+  {
+    "ts": "2026-05-03T22:59:59.874Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0006",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "outlier_dominated",
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:00:00.844Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0006",
+    "structureType": "outlier_dominated",
+    "added": false,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:00:01.386Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0006",
+    "structureType": "outlier_dominated",
+    "added": true,
+    "labels": [
+      "simple_traj",
+      "outlier_dominated"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:00:05.243Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0006",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:00:20.305Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0007",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:00:27.642Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0007",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "multi_branch",
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:00:32.218Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0007",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:00:36.377Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0008",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:00:43.157Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0008",
+    "annotationType": "density",
+    "value": "low"
+  },
+  {
+    "ts": "2026-05-03T23:00:51.211Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0008",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:00:54.338Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0009",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:00:59.082Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0009",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:01:24.482Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0008",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "simple_traj",
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:01:37.594Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0009",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "simple_traj",
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:01:54.474Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0010",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:02:02.298Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0010",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "archetypal",
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:02:08.994Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0010",
+    "annotationType": "density",
+    "value": "low"
+  },
+  {
+    "ts": "2026-05-03T23:02:10.371Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0010",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:02:17.713Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0011",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:02:22.018Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0011",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "bifurcation",
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:02:29.132Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0011",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:02:38.689Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0012",
+    "structureType": "cyclic",
+    "added": true,
+    "labels": [
+      "cyclic"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:02:45.321Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0012",
+    "structureType": "outlier_dominated",
+    "added": true,
+    "labels": [
+      "cyclic",
+      "outlier_dominated"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:02:51.602Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0012",
+    "annotationType": "density",
+    "value": "low"
+  },
+  {
+    "ts": "2026-05-03T23:03:07.242Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0013",
+    "structureType": "cyclic",
+    "added": true,
+    "labels": [
+      "cyclic"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:03:21.355Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0013",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:03:39.906Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0013",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "cyclic",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:03:45.402Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0014",
+    "annotationType": "density",
+    "value": "low"
+  },
+  {
+    "ts": "2026-05-03T23:03:57.346Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0014",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:04:08.409Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0014",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "multi_branch",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:04:38.050Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0015",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:04:48.425Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0015",
+    "structureType": "cyclic",
+    "added": true,
+    "labels": [
+      "multi_branch",
+      "cyclic"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:04:50.315Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0015",
+    "annotationType": "density",
+    "value": "low"
+  },
+  {
+    "ts": "2026-05-03T23:05:06.738Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0016",
+    "structureType": "cyclic",
+    "added": true,
+    "labels": [
+      "cyclic"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:05:15.938Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0016",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "cyclic",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:05:32.730Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0016",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "cyclic",
+      "clusters",
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:05:36.979Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0016",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:05:47.865Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0017",
+    "structureType": "cyclic",
+    "added": true,
+    "labels": [
+      "cyclic"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:05:53.410Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0017",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "cyclic",
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:06:21.081Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0017",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "cyclic",
+      "archetypal",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:06:23.362Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0017",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:06:27.506Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0018",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:06:43.098Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0018",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:06:52.066Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0018",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "archetypal",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:07:14.514Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0019",
+    "structureType": "cyclic",
+    "added": true,
+    "labels": [
+      "cyclic"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:07:15.939Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0019",
+    "annotationType": "density",
+    "value": "low"
+  },
+  {
+    "ts": "2026-05-03T23:07:27.394Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0020",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:07:36.761Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0020",
+    "structureType": "cyclic",
+    "added": true,
+    "labels": [
+      "multi_branch",
+      "cyclic"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:07:40.314Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0020",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:07:43.706Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0019",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:07:45.195Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0021",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:07:49.785Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0021",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:08:04.050Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0022",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:08:11.177Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0022",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "multi_branch",
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:08:12.234Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0022",
+    "structureType": "multi_branch",
+    "added": false,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:08:18.618Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0022",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "bifurcation",
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:08:19.522Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0022",
+    "structureType": "bifurcation",
+    "added": false,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:08:21.235Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0022",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:08:29.097Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0023",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:08:44.506Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0023",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:08:48.482Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0024",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:08:56.306Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0024",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:09:01.314Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0024",
+    "structureType": "cyclic",
+    "added": true,
+    "labels": [
+      "bifurcation",
+      "cyclic"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:09:05.035Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0024",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:09:18.305Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0025",
+    "structureType": "cyclic",
+    "added": true,
+    "labels": [
+      "cyclic"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:09:22.977Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0025",
+    "structureType": "complex_tree",
+    "added": true,
+    "labels": [
+      "cyclic",
+      "complex_tree"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:09:27.707Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0025",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:09:31.482Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0026",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:09:32.857Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0026",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "bifurcation",
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:09:33.585Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0026",
+    "structureType": "bifurcation",
+    "added": false,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:09:36.226Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0026",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:09:41.580Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0027",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:09:44.929Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0027",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:09:50.218Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0027",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "clusters",
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:09:57.786Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0028",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:09:58.603Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0028",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "archetypal",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:10:00.674Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0028",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:10:08.321Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0029",
+    "structureType": "complex_tree",
+    "added": true,
+    "labels": [
+      "complex_tree"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:10:17.882Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0029",
+    "structureType": "batch_effect",
+    "added": true,
+    "labels": [
+      "complex_tree",
+      "batch_effect"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:10:28.361Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0030",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:10:33.931Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0029",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:10:35.203Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0030",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:11:03.970Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0033",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:11:08.954Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0033",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:11:13.873Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0033",
+    "structureType": "cyclic",
+    "added": true,
+    "labels": [
+      "clusters",
+      "cyclic"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:11:23.233Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0045",
+    "structureType": "cyclic",
+    "added": true,
+    "labels": [
+      "cyclic"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:11:35.571Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0045",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:12:01.707Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0046",
+    "structureType": "batch_effect",
+    "added": true,
+    "labels": [
+      "batch_effect"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:12:03.402Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0046",
+    "structureType": "batch_effect",
+    "added": false,
+    "labels": []
+  },
+  {
+    "ts": "2026-05-03T23:12:07.009Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0046",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:12:10.593Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0046",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "clusters",
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:12:12.531Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0046",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:12:28.433Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0047",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:12:34.873Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0048",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:12:37.178Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0047",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:12:38.610Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0048",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:12:43.026Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0049",
+    "structureType": "complex_tree",
+    "added": true,
+    "labels": [
+      "complex_tree"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:12:48.753Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0049",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "complex_tree",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:12:52.098Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0049",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:13:00.209Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0050",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:13:14.226Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0051",
+    "structureType": "batch_effect",
+    "added": true,
+    "labels": [
+      "batch_effect"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:13:19.355Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0050",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:13:34.706Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0051",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:13:37.922Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0052",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:13:39.396Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0052",
+    "annotationType": "density",
+    "value": "low"
+  },
+  {
+    "ts": "2026-05-03T23:13:46.650Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0053",
+    "structureType": "outlier_dominated",
+    "added": true,
+    "labels": [
+      "outlier_dominated"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:13:49.083Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0053",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:13:51.794Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0053",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:14:04.649Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0054",
+    "structureType": "outlier_dominated",
+    "added": true,
+    "labels": [
+      "outlier_dominated"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:14:05.650Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0054",
+    "annotationType": "density",
+    "value": "low"
+  },
+  {
+    "ts": "2026-05-03T23:14:08.921Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0055",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:14:11.938Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0055",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:14:15.122Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0055",
+    "structureType": "complex_tree",
+    "added": true,
+    "labels": [
+      "bifurcation",
+      "complex_tree"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:14:17.002Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0055",
+    "structureType": "complex_tree",
+    "added": false,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:14:20.594Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0055",
+    "structureType": "complex_tree",
+    "added": true,
+    "labels": [
+      "bifurcation",
+      "complex_tree"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:14:29.563Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0056",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:14:32.530Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0056",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:14:47.377Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0057",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:14:51.545Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0057",
+    "structureType": "complex_tree",
+    "added": true,
+    "labels": [
+      "bifurcation",
+      "complex_tree"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:14:57.921Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0058",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:15:09.194Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0056",
+    "annotationType": "density",
+    "value": "low"
+  },
+  {
+    "ts": "2026-05-03T23:15:18.506Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0056",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:15:56.338Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0059",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:16:01.075Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0059",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:16:03.850Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0060",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:16:08.130Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0060",
+    "annotationType": "density",
+    "value": "low"
+  },
+  {
+    "ts": "2026-05-03T23:16:18.466Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0061",
+    "annotationType": "density",
+    "value": "low"
+  },
+  {
+    "ts": "2026-05-03T23:16:24.491Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0061",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:16:27.041Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0061",
+    "structureType": "simple_traj",
+    "added": false,
+    "labels": []
+  },
+  {
+    "ts": "2026-05-03T23:16:28.674Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0061",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:16:41.722Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0062",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:16:43.083Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0062",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:16:51.809Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0063",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:16:52.265Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0063",
+    "structureType": "complex_tree",
+    "added": true,
+    "labels": [
+      "bifurcation",
+      "complex_tree"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:17:00.409Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0064",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:17:03.731Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0064",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:17:05.226Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0063",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:17:09.411Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0058",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:17:10.722Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0057",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:17:23.113Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0067",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:17:25.530Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0067",
+    "annotationType": "density",
+    "value": "low"
+  },
+  {
+    "ts": "2026-05-03T23:17:34.817Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0066",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:17:35.738Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0066",
+    "annotationType": "density",
+    "value": "low"
+  },
+  {
+    "ts": "2026-05-03T23:17:43.945Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0065",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:17:45.634Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0065",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:18:12.338Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0068",
+    "structureType": "cyclic",
+    "added": true,
+    "labels": [
+      "cyclic"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:18:25.250Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0068",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "cyclic",
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:18:38.889Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0068",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "cyclic",
+      "bifurcation",
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:18:45.721Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0068",
+    "structureType": "simple_traj",
+    "added": false,
+    "labels": [
+      "cyclic",
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:18:51.250Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0068",
+    "structureType": "bifurcation",
+    "added": false,
+    "labels": [
+      "cyclic"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:18:54.291Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0068",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:19:00.617Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0068",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "cyclic",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:19:02.865Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0069",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:19:11.419Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0069",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:19:17.081Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0070",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:19:31.315Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0070",
+    "annotationType": "density",
+    "value": "low"
+  },
+  {
+    "ts": "2026-05-03T23:19:32.835Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0070",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:19:46.233Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0071",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:19:48.826Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0071",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "archetypal",
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:19:50.475Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0071",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:19:53.458Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0071",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:19:57.170Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0071",
+    "structureType": "batch_effect",
+    "added": true,
+    "labels": [
+      "archetypal",
+      "multi_branch",
+      "batch_effect"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:20:05.266Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0072",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:20:07.938Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0072",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:20:44.681Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0073",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:20:51.114Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0073",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:21:12.130Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0073",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "multi_branch",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:21:32.186Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0074",
+    "structureType": "batch_effect",
+    "added": true,
+    "labels": [
+      "batch_effect"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:21:38.401Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0074",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "batch_effect",
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:21:40.755Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0074",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:21:48.562Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0075",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:21:51.130Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0075",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:22:32.161Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0076",
+    "structureType": "cyclic",
+    "added": true,
+    "labels": [
+      "cyclic"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:22:34.706Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0076",
+    "structureType": "cyclic",
+    "added": false,
+    "labels": []
+  },
+  {
+    "ts": "2026-05-03T23:22:40.618Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0076",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:22:45.578Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0076",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:23:04.025Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0077",
+    "structureType": "blob",
+    "added": true,
+    "labels": [
+      "blob"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:23:43.153Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0077",
+    "structureType": "blob",
+    "added": false,
+    "labels": []
+  },
+  {
+    "ts": "2026-05-03T23:23:46.178Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0077",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:25:34.075Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0069",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "clusters",
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:25:50.217Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0078",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:25:53.698Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0078",
+    "structureType": "multi_branch",
+    "added": false,
+    "labels": []
+  },
+  {
+    "ts": "2026-05-03T23:25:54.297Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0078",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:26:11.225Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0078",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "simple_traj",
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:26:21.921Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0078",
+    "structureType": "simple_traj",
+    "added": false,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:26:30.778Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0078",
+    "structureType": "complex_tree",
+    "added": true,
+    "labels": [
+      "bifurcation",
+      "complex_tree"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:26:53.497Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0079",
+    "structureType": "complex_tree",
+    "added": true,
+    "labels": [
+      "complex_tree"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:26:55.091Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0079",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "complex_tree",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:27:06.305Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0080",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:27:13.882Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0080",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:27:41.611Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0081",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:27:51.010Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0081",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:28:16.265Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0082",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:28:23.498Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0082",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "bifurcation",
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:28:24.578Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0082",
+    "structureType": "bifurcation",
+    "added": false,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:28:27.986Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0082",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:28:41.970Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0083",
+    "structureType": "outlier_dominated",
+    "added": true,
+    "labels": [
+      "outlier_dominated"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:28:43.459Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0083",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:28:47.227Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0083",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:28:53.531Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0084",
+    "structureType": "blob",
+    "added": true,
+    "labels": [
+      "blob"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:28:54.899Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0084",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:29:13.553Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0085",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:29:16.235Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0085",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:29:36.946Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0086",
+    "structureType": "cyclic",
+    "added": true,
+    "labels": [
+      "cyclic"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:30:02.225Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0086",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "cyclic",
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:30:17.857Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0087",
+    "structureType": "blob",
+    "added": true,
+    "labels": [
+      "blob"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:30:20.154Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0087",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:30:36.177Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0088",
+    "structureType": "blob",
+    "added": true,
+    "labels": [
+      "blob"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:30:37.322Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0088",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:31:00.209Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0089",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:31:03.395Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0089",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:31:20.314Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0090",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:31:24.283Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0090",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:41:43.418Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0091",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:41:44.877Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0091",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:42:08.633Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0092",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:42:17.289Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0092",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "multi_branch",
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:42:18.041Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0092",
+    "structureType": "multi_branch",
+    "added": false,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:42:19.878Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0092",
+    "annotationType": "density",
+    "value": "low"
+  },
+  {
+    "ts": "2026-05-03T23:42:22.458Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0092",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:42:29.810Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0093",
+    "structureType": "batch_effect",
+    "added": true,
+    "labels": [
+      "batch_effect"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:42:33.779Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0093",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:42:50.657Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0094",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:42:51.289Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0094",
+    "structureType": "blob",
+    "added": true,
+    "labels": [
+      "simple_traj",
+      "blob"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:43:00.080Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0094",
+    "structureType": "simple_traj",
+    "added": false,
+    "labels": [
+      "blob"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:43:39.281Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0094",
+    "structureType": "blob",
+    "added": false,
+    "labels": []
+  },
+  {
+    "ts": "2026-05-03T23:43:40.281Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0094",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:43:48.195Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0094",
+    "annotationType": "density",
+    "value": "low"
+  },
+  {
+    "ts": "2026-05-03T23:43:49.726Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0094",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:44:28.810Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0095",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:44:56.457Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0096",
+    "structureType": "cyclic",
+    "added": true,
+    "labels": [
+      "cyclic"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:45:05.433Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0096",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "cyclic",
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:45:06.794Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0096",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:45:08.091Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0096",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:45:16.522Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0097",
+    "structureType": "cyclic",
+    "added": true,
+    "labels": [
+      "cyclic"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:45:17.881Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0097",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "cyclic",
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:45:19.018Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0097",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:45:36.361Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0098",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:45:39.065Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0098",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "archetypal",
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:45:41.145Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0098",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "archetypal",
+      "bifurcation",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:45:50.257Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0099",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:45:51.267Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0099",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:45:59.265Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0100",
+    "structureType": "complex_tree",
+    "added": true,
+    "labels": [
+      "complex_tree"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:46:01.300Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0100",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:46:10.481Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0101",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:46:29.449Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0101",
+    "structureType": "complex_tree",
+    "added": true,
+    "labels": [
+      "multi_branch",
+      "complex_tree"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:46:29.827Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0101",
+    "structureType": "multi_branch",
+    "added": false,
+    "labels": [
+      "complex_tree"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:46:31.898Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0101",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:46:39.529Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0102",
+    "structureType": "complex_tree",
+    "added": true,
+    "labels": [
+      "complex_tree"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:46:41.015Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0102",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:47:10.313Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0103",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:47:11.601Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0103",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "multi_branch",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:47:12.834Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0103",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:47:27.401Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0104",
+    "structureType": "cyclic",
+    "added": true,
+    "labels": [
+      "cyclic"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:47:31.073Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0104",
+    "structureType": "cyclic",
+    "added": false,
+    "labels": []
+  },
+  {
+    "ts": "2026-05-03T23:47:45.289Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0104",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:48:07.659Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0104",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "archetypal",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:48:36.578Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0105",
+    "structureType": "complex_tree",
+    "added": true,
+    "labels": [
+      "complex_tree"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:48:43.267Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0105",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:49:01.433Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0106",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:49:03.387Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0106",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:49:41.865Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0107",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:49:44.867Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0107",
+    "annotationType": "density",
+    "value": "low"
+  },
+  {
+    "ts": "2026-05-03T23:49:46.122Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0107",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T23:50:03.586Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0108",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:50:04.692Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0108",
+    "annotationType": "density",
+    "value": "low"
+  },
+  {
+    "ts": "2026-05-03T23:50:34.641Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0109",
+    "structureType": "outlier_dominated",
+    "added": true,
+    "labels": [
+      "outlier_dominated"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:50:44.113Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0109",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "outlier_dominated",
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:51:06.841Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0110",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:51:08.153Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0110",
+    "structureType": "cyclic",
+    "added": true,
+    "labels": [
+      "simple_traj",
+      "cyclic"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:51:09.938Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0110",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:51:20.610Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0109",
+    "structureType": "bifurcation",
+    "added": false,
+    "labels": [
+      "outlier_dominated"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:51:21.017Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0109",
+    "structureType": "outlier_dominated",
+    "added": false,
+    "labels": []
+  },
+  {
+    "ts": "2026-05-03T23:51:22.329Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0109",
+    "structureType": "outlier_dominated",
+    "added": true,
+    "labels": [
+      "outlier_dominated"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:51:22.697Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0109",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "outlier_dominated",
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:52:07.299Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0111",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:52:08.396Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0111",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T23:52:20.187Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0112",
+    "structureType": "blob",
+    "added": true,
+    "labels": [
+      "blob"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:52:21.609Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0112",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "blob",
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T23:52:23.954Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0112",
+    "annotationType": "density",
+    "value": "high"
+  }
+]

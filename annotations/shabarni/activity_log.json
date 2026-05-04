@@ -1,0 +1,4369 @@
+[
+  {
+    "ts": "2026-05-03T17:23:40.792Z",
+    "action": "SESSION_START",
+    "sessionId": "session_wpj55092l_1777829020792"
+  },
+  {
+    "ts": "2026-05-03T17:24:37.590Z",
+    "action": "SESSION_START",
+    "sessionId": "session_3f765mibw_1777829077590"
+  },
+  {
+    "ts": "2026-05-03T17:26:37.486Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0001",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T17:26:45.315Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0001",
+    "annotationType": "density",
+    "value": "low"
+  },
+  {
+    "ts": "2026-05-03T17:26:55.382Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0001",
+    "annotationType": "quality",
+    "value": "poor"
+  },
+  {
+    "ts": "2026-05-03T17:31:18.775Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0001",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T17:31:21.674Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0001",
+    "annotationType": "quality",
+    "value": "good"
+  },
+  {
+    "ts": "2026-05-03T17:36:36.752Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0001",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "bifurcation",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T17:43:44.952Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0002",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T17:43:55.802Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0002",
+    "annotationType": "density",
+    "value": "low"
+  },
+  {
+    "ts": "2026-05-03T17:43:57.433Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0002",
+    "annotationType": "quality",
+    "value": "poor"
+  },
+  {
+    "ts": "2026-05-03T17:43:59.807Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0002",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "simple_traj",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T17:44:05.189Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0002",
+    "structureType": "clusters",
+    "added": false,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T17:44:23.273Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0003",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T17:44:39.132Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0003",
+    "structureType": "blob",
+    "added": true,
+    "labels": [
+      "simple_traj",
+      "blob"
+    ]
+  },
+  {
+    "ts": "2026-05-03T17:44:43.429Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0003",
+    "annotationType": "density",
+    "value": "high"
+  },
+  {
+    "ts": "2026-05-03T17:44:47.698Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0003",
+    "annotationType": "quality",
+    "value": "poor"
+  },
+  {
+    "ts": "2026-05-03T17:45:13.571Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0004",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T17:45:17.816Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0004",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "simple_traj",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T17:45:21.082Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0004",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T17:45:23.659Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0004",
+    "annotationType": "quality",
+    "value": "good"
+  },
+  {
+    "ts": "2026-05-03T17:45:36.582Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0005",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T17:45:44.367Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0005",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "simple_traj",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T17:45:49.249Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0005",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T17:45:51.627Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0005",
+    "annotationType": "quality",
+    "value": "good"
+  },
+  {
+    "ts": "2026-05-03T18:27:05.902Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0006",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:27:26.336Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0007",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:27:36.796Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0007",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T18:27:43.513Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0007",
+    "annotationType": "quality",
+    "value": "good"
+  },
+  {
+    "ts": "2026-05-03T18:27:52.683Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0008",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:27:53.899Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0008",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "clusters",
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:27:57.645Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0008",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T18:27:59.996Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0008",
+    "annotationType": "quality",
+    "value": "good"
+  },
+  {
+    "ts": "2026-05-03T18:28:06.337Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0009",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:28:07.382Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0009",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "clusters",
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:28:09.692Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0009",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T18:28:11.592Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0009",
+    "annotationType": "quality",
+    "value": "good"
+  },
+  {
+    "ts": "2026-05-03T18:28:18.585Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0010",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:28:27.781Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0010",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T18:28:29.628Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0010",
+    "annotationType": "quality",
+    "value": "good"
+  },
+  {
+    "ts": "2026-05-03T18:28:38.982Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0011",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:28:42.542Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0011",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T18:28:44.510Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0011",
+    "annotationType": "quality",
+    "value": "good"
+  },
+  {
+    "ts": "2026-05-03T18:29:13.750Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0012",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:29:19.843Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0012",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T18:29:21.525Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0012",
+    "annotationType": "quality",
+    "value": "good"
+  },
+  {
+    "ts": "2026-05-03T18:30:01.996Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0013",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:30:22.062Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0014",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:30:28.651Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0014",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "archetypal",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:30:32.608Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0014",
+    "annotationType": "density",
+    "value": "medium"
+  },
+  {
+    "ts": "2026-05-03T18:30:34.973Z",
+    "action": "SET_ANNOTATION",
+    "datasetId": "SCD-0014",
+    "annotationType": "quality",
+    "value": "good"
+  },
+  {
+    "ts": "2026-05-03T18:31:09.860Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0015",
+    "structureType": "cyclic",
+    "added": true,
+    "labels": [
+      "cyclic"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:31:16.310Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0015",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "cyclic",
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:31:48.643Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0016",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:32:08.447Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0016",
+    "structureType": "complex_tree",
+    "added": true,
+    "labels": [
+      "clusters",
+      "complex_tree"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:32:38.843Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0017",
+    "structureType": "complex_tree",
+    "added": true,
+    "labels": [
+      "complex_tree"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:32:43.958Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0017",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "complex_tree",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:33:39.122Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0018",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:34:01.274Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0019",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:34:08.772Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0019",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "archetypal",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:34:28.058Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0020",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:34:31.572Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0020",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "bifurcation",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:36:39.553Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0021",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:36:59.070Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0022",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:37:03.256Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0022",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "clusters",
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:37:12.506Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0022",
+    "structureType": "cyclic",
+    "added": true,
+    "labels": [
+      "clusters",
+      "bifurcation",
+      "cyclic"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:37:36.950Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0023",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:38:11.942Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0023",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "simple_traj",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:38:19.880Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0024",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:38:47.099Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0025",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:39:50.509Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0026",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:39:52.180Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0026",
+    "structureType": "cyclic",
+    "added": true,
+    "labels": [
+      "simple_traj",
+      "cyclic"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:39:53.426Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0026",
+    "structureType": "cyclic",
+    "added": false,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:39:54.091Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0026",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "simple_traj",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:40:01.992Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0027",
+    "structureType": "complex_tree",
+    "added": true,
+    "labels": [
+      "complex_tree"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:40:04.145Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0027",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "complex_tree",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:40:22.926Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0028",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:40:24.459Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0028",
+    "structureType": "cyclic",
+    "added": true,
+    "labels": [
+      "clusters",
+      "cyclic"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:40:57.092Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0029",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:41:47.192Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0033",
+    "structureType": "complex_tree",
+    "added": true,
+    "labels": [
+      "complex_tree"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:41:49.412Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0033",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "complex_tree",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:42:32.108Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0045",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:42:34.758Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0033",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "complex_tree",
+      "clusters",
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:42:36.492Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0033",
+    "structureType": "complex_tree",
+    "added": false,
+    "labels": [
+      "clusters",
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:43:09.774Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0027",
+    "structureType": "complex_tree",
+    "added": false,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:43:27.692Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0017",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "complex_tree",
+      "clusters",
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:43:28.409Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0017",
+    "structureType": "complex_tree",
+    "added": false,
+    "labels": [
+      "clusters",
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:43:49.157Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0016",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "clusters",
+      "complex_tree",
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:43:49.907Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0016",
+    "structureType": "complex_tree",
+    "added": false,
+    "labels": [
+      "clusters",
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:45:34.527Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0046",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:45:55.509Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0047",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:45:56.691Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0047",
+    "structureType": "complex_tree",
+    "added": true,
+    "labels": [
+      "clusters",
+      "complex_tree"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:46:04.474Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0048",
+    "structureType": "complex_tree",
+    "added": true,
+    "labels": [
+      "complex_tree"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:46:06.092Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0048",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "complex_tree",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:46:26.858Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0048",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "complex_tree",
+      "clusters",
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:46:28.947Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0047",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "clusters",
+      "complex_tree",
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:46:51.991Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0049",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:47:00.109Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0049",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "clusters",
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:47:10.761Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0050",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:47:22.858Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0051",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:47:46.875Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0052",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:47:52.547Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0052",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "clusters",
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:47:58.542Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0052",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "clusters",
+      "bifurcation",
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:48:08.774Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0053",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:48:15.663Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0054",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:48:16.313Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0054",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "clusters",
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:48:30.923Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0055",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:48:58.324Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0056",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:48:59.895Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0056",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "clusters",
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:49:03.208Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0056",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "clusters",
+      "simple_traj",
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:49:03.893Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0056",
+    "structureType": "simple_traj",
+    "added": false,
+    "labels": [
+      "clusters",
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:49:14.007Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0056",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "clusters",
+      "bifurcation",
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:49:49.206Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 1
+  },
+  {
+    "ts": "2026-05-03T18:49:49.432Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 2
+  },
+  {
+    "ts": "2026-05-03T18:49:49.563Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 3
+  },
+  {
+    "ts": "2026-05-03T18:49:50.995Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 4
+  },
+  {
+    "ts": "2026-05-03T18:50:02.181Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 5
+  },
+  {
+    "ts": "2026-05-03T18:50:02.373Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 6
+  },
+  {
+    "ts": "2026-05-03T18:50:02.504Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 7
+  },
+  {
+    "ts": "2026-05-03T18:50:02.672Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 8
+  },
+  {
+    "ts": "2026-05-03T18:50:02.884Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 9
+  },
+  {
+    "ts": "2026-05-03T18:50:03.051Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 10
+  },
+  {
+    "ts": "2026-05-03T18:50:03.218Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 11
+  },
+  {
+    "ts": "2026-05-03T18:50:03.300Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 12
+  },
+  {
+    "ts": "2026-05-03T18:50:03.458Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 13
+  },
+  {
+    "ts": "2026-05-03T18:50:03.633Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 14
+  },
+  {
+    "ts": "2026-05-03T18:50:03.821Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 15
+  },
+  {
+    "ts": "2026-05-03T18:50:03.998Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 16
+  },
+  {
+    "ts": "2026-05-03T18:50:04.069Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 17
+  },
+  {
+    "ts": "2026-05-03T18:50:04.165Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 18
+  },
+  {
+    "ts": "2026-05-03T18:50:04.280Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 19
+  },
+  {
+    "ts": "2026-05-03T18:50:04.411Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 20
+  },
+  {
+    "ts": "2026-05-03T18:50:04.689Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 21
+  },
+  {
+    "ts": "2026-05-03T18:50:04.801Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 22
+  },
+  {
+    "ts": "2026-05-03T18:50:04.979Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 23
+  },
+  {
+    "ts": "2026-05-03T18:50:05.036Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 24
+  },
+  {
+    "ts": "2026-05-03T18:50:05.231Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 25
+  },
+  {
+    "ts": "2026-05-03T18:50:05.422Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 26
+  },
+  {
+    "ts": "2026-05-03T18:50:05.871Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 27
+  },
+  {
+    "ts": "2026-05-03T18:50:06.083Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 28
+  },
+  {
+    "ts": "2026-05-03T18:50:06.970Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 29
+  },
+  {
+    "ts": "2026-05-03T18:50:07.222Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 30
+  },
+  {
+    "ts": "2026-05-03T18:50:07.463Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 31
+  },
+  {
+    "ts": "2026-05-03T18:50:07.514Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 32
+  },
+  {
+    "ts": "2026-05-03T18:50:07.836Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 33
+  },
+  {
+    "ts": "2026-05-03T18:50:07.987Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 34
+  },
+  {
+    "ts": "2026-05-03T18:50:08.397Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 35
+  },
+  {
+    "ts": "2026-05-03T18:50:08.447Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 36
+  },
+  {
+    "ts": "2026-05-03T18:50:09.217Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 37
+  },
+  {
+    "ts": "2026-05-03T18:50:09.432Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 38
+  },
+  {
+    "ts": "2026-05-03T18:50:09.547Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 39
+  },
+  {
+    "ts": "2026-05-03T18:50:09.652Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 40
+  },
+  {
+    "ts": "2026-05-03T18:50:09.783Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 41
+  },
+  {
+    "ts": "2026-05-03T18:50:10.037Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 42
+  },
+  {
+    "ts": "2026-05-03T18:50:10.601Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 43
+  },
+  {
+    "ts": "2026-05-03T18:50:10.798Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 44
+  },
+  {
+    "ts": "2026-05-03T18:50:10.971Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 45
+  },
+  {
+    "ts": "2026-05-03T18:50:11.370Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 46
+  },
+  {
+    "ts": "2026-05-03T18:50:11.563Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 47
+  },
+  {
+    "ts": "2026-05-03T18:50:11.787Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 48
+  },
+  {
+    "ts": "2026-05-03T18:50:11.901Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 49
+  },
+  {
+    "ts": "2026-05-03T18:50:12.202Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 50
+  },
+  {
+    "ts": "2026-05-03T18:50:12.482Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 51
+  },
+  {
+    "ts": "2026-05-03T18:50:12.634Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 52
+  },
+  {
+    "ts": "2026-05-03T18:50:12.777Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 53
+  },
+  {
+    "ts": "2026-05-03T18:50:12.947Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 54
+  },
+  {
+    "ts": "2026-05-03T18:50:13.622Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 55
+  },
+  {
+    "ts": "2026-05-03T18:50:13.813Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 56
+  },
+  {
+    "ts": "2026-05-03T18:50:14.310Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 57
+  },
+  {
+    "ts": "2026-05-03T18:50:14.988Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 58
+  },
+  {
+    "ts": "2026-05-03T18:50:15.013Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 59
+  },
+  {
+    "ts": "2026-05-03T18:50:15.272Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 60
+  },
+  {
+    "ts": "2026-05-03T18:50:15.341Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 61
+  },
+  {
+    "ts": "2026-05-03T18:50:15.644Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 62
+  },
+  {
+    "ts": "2026-05-03T18:50:15.753Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 63
+  },
+  {
+    "ts": "2026-05-03T18:50:16.667Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 64
+  },
+  {
+    "ts": "2026-05-03T18:50:16.896Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 65
+  },
+  {
+    "ts": "2026-05-03T18:50:17.123Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 66
+  },
+  {
+    "ts": "2026-05-03T18:50:17.263Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 67
+  },
+  {
+    "ts": "2026-05-03T18:50:17.540Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 68
+  },
+  {
+    "ts": "2026-05-03T18:50:19.560Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0056",
+    "noteLength": 0
+  },
+  {
+    "ts": "2026-05-03T18:50:39.842Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0057",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:50:56.458Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0058",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:51:08.491Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0058",
+    "structureType": "complex_tree",
+    "added": true,
+    "labels": [
+      "multi_branch",
+      "complex_tree"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:53:00.894Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0056",
+    "structureType": "clusters",
+    "added": false,
+    "labels": [
+      "bifurcation",
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:53:35.593Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0059",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:54:06.594Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0060",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:54:13.925Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0061",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:54:20.658Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0061",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "clusters",
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:54:29.324Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0062",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:54:44.642Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0063",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:55:06.675Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0064",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:55:18.441Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0065",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:55:19.375Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0065",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "clusters",
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:55:29.776Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0066",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:55:38.674Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0067",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:55:50.444Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0068",
+    "structureType": "cyclic",
+    "added": true,
+    "labels": [
+      "cyclic"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:56:00.643Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0069",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:56:15.624Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0070",
+    "structureType": "complex_tree",
+    "added": true,
+    "labels": [
+      "complex_tree"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:56:16.758Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0070",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "complex_tree",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:57:07.707Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0071",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:57:25.462Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0072",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:57:27.042Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0071",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "bifurcation",
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:57:27.758Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0071",
+    "structureType": "bifurcation",
+    "added": false,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:57:35.341Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0072",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "multi_branch",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:57:42.962Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0073",
+    "structureType": "blob",
+    "added": true,
+    "labels": [
+      "blob"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:58:03.375Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0074",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:58:10.142Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0074",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "clusters",
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:58:43.528Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0075",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:58:44.577Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0075",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "clusters",
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:58:51.792Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0076",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:59:00.124Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0077",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:59:07.741Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0078",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:59:11.277Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0078",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "multi_branch",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:59:16.441Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0079",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:59:41.741Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0080",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T18:59:44.778Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0080",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "multi_branch",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:00:24.775Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0081",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:02:35.211Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0082",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:02:48.712Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0083",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:03:10.041Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0084",
+    "structureType": "blob",
+    "added": true,
+    "labels": [
+      "blob"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:03:17.957Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0083",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "clusters",
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:03:37.207Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0085",
+    "structureType": "cyclic",
+    "added": true,
+    "labels": [
+      "cyclic"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:03:54.062Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0086",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:04:07.209Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0087",
+    "structureType": "blob",
+    "added": true,
+    "labels": [
+      "blob"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:04:13.408Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0088",
+    "structureType": "blob",
+    "added": true,
+    "labels": [
+      "blob"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:04:21.275Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0089",
+    "structureType": "archetypal",
+    "added": true,
+    "labels": [
+      "archetypal"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:04:26.424Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0089",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "archetypal",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:04:38.392Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0090",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:04:46.192Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0091",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:04:47.276Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0091",
+    "structureType": "cyclic",
+    "added": true,
+    "labels": [
+      "clusters",
+      "cyclic"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:05:00.640Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0092",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:05:22.408Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0092",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "simple_traj",
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:05:32.475Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0093",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:05:38.744Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0094",
+    "structureType": "blob",
+    "added": true,
+    "labels": [
+      "blob"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:05:58.484Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0095",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:06:00.800Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0095",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "clusters",
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:06:18.901Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0096",
+    "structureType": "cyclic",
+    "added": true,
+    "labels": [
+      "cyclic"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:06:32.121Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0097",
+    "structureType": "cyclic",
+    "added": true,
+    "labels": [
+      "cyclic"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:06:39.668Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0098",
+    "structureType": "blob",
+    "added": true,
+    "labels": [
+      "blob"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:06:51.036Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0099",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:07:20.635Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0100",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:07:21.585Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0100",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "bifurcation",
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:07:38.406Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0101",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:08:02.073Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0102",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:08:04.988Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0102",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "multi_branch",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:08:31.418Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0103",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:08:32.852Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0103",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "multi_branch",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:09:22.518Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0104",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:09:28.103Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0104",
+    "structureType": "clusters",
+    "added": false,
+    "labels": []
+  },
+  {
+    "ts": "2026-05-03T19:09:29.203Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0104",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:09:34.169Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0104",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "bifurcation",
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:09:35.251Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0104",
+    "structureType": "bifurcation",
+    "added": false,
+    "labels": [
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:09:44.802Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0105",
+    "structureType": "blob",
+    "added": true,
+    "labels": [
+      "blob"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:10:14.439Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0106",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:10:15.384Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0106",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "clusters",
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:10:27.869Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0107",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:10:28.834Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0107",
+    "structureType": "blob",
+    "added": true,
+    "labels": [
+      "clusters",
+      "blob"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:10:42.369Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0108",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:10:48.207Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0108",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "clusters",
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:11:15.789Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0109",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:11:30.386Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0110",
+    "structureType": "blob",
+    "added": true,
+    "labels": [
+      "blob"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:11:31.370Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0110",
+    "structureType": "cyclic",
+    "added": true,
+    "labels": [
+      "blob",
+      "cyclic"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:11:37.968Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0110",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "blob",
+      "cyclic",
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:11:51.952Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0111",
+    "structureType": "cyclic",
+    "added": true,
+    "labels": [
+      "cyclic"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:11:53.205Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0111",
+    "structureType": "blob",
+    "added": true,
+    "labels": [
+      "cyclic",
+      "blob"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:11:59.836Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0111",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "cyclic",
+      "blob",
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:12:07.119Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0112",
+    "structureType": "blob",
+    "added": true,
+    "labels": [
+      "blob"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:12:40.619Z",
+    "action": "TOGGLE_FLAG",
+    "datasetId": "SCD-0011",
+    "flagged": true
+  },
+  {
+    "ts": "2026-05-03T19:12:44.686Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 1
+  },
+  {
+    "ts": "2026-05-03T19:12:44.774Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 2
+  },
+  {
+    "ts": "2026-05-03T19:12:45.047Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 3
+  },
+  {
+    "ts": "2026-05-03T19:12:45.143Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 4
+  },
+  {
+    "ts": "2026-05-03T19:12:45.318Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 5
+  },
+  {
+    "ts": "2026-05-03T19:12:45.429Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 6
+  },
+  {
+    "ts": "2026-05-03T19:12:45.845Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 5
+  },
+  {
+    "ts": "2026-05-03T19:12:46.017Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 4
+  },
+  {
+    "ts": "2026-05-03T19:12:46.324Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 3
+  },
+  {
+    "ts": "2026-05-03T19:12:46.506Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 2
+  },
+  {
+    "ts": "2026-05-03T19:12:46.627Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 1
+  },
+  {
+    "ts": "2026-05-03T19:12:46.806Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 2
+  },
+  {
+    "ts": "2026-05-03T19:12:47.581Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 3
+  },
+  {
+    "ts": "2026-05-03T19:12:47.657Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 4
+  },
+  {
+    "ts": "2026-05-03T19:12:47.823Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 5
+  },
+  {
+    "ts": "2026-05-03T19:12:47.933Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 6
+  },
+  {
+    "ts": "2026-05-03T19:12:48.026Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 7
+  },
+  {
+    "ts": "2026-05-03T19:12:48.223Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 8
+  },
+  {
+    "ts": "2026-05-03T19:12:48.957Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 9
+  },
+  {
+    "ts": "2026-05-03T19:12:49.108Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 10
+  },
+  {
+    "ts": "2026-05-03T19:12:49.221Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 11
+  },
+  {
+    "ts": "2026-05-03T19:12:49.360Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 12
+  },
+  {
+    "ts": "2026-05-03T19:12:49.624Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 13
+  },
+  {
+    "ts": "2026-05-03T19:12:49.759Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 14
+  },
+  {
+    "ts": "2026-05-03T19:12:49.945Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 15
+  },
+  {
+    "ts": "2026-05-03T19:12:50.006Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 16
+  },
+  {
+    "ts": "2026-05-03T19:12:50.186Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 17
+  },
+  {
+    "ts": "2026-05-03T19:12:50.345Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 18
+  },
+  {
+    "ts": "2026-05-03T19:12:50.491Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 19
+  },
+  {
+    "ts": "2026-05-03T19:12:50.610Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 20
+  },
+  {
+    "ts": "2026-05-03T19:12:50.741Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 21
+  },
+  {
+    "ts": "2026-05-03T19:12:50.959Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 22
+  },
+  {
+    "ts": "2026-05-03T19:12:51.037Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 23
+  },
+  {
+    "ts": "2026-05-03T19:12:51.221Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 24
+  },
+  {
+    "ts": "2026-05-03T19:12:51.287Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 25
+  },
+  {
+    "ts": "2026-05-03T19:12:51.498Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 26
+  },
+  {
+    "ts": "2026-05-03T19:12:51.692Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 27
+  },
+  {
+    "ts": "2026-05-03T19:12:52.236Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 26
+  },
+  {
+    "ts": "2026-05-03T19:12:52.739Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 25
+  },
+  {
+    "ts": "2026-05-03T19:12:52.824Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 24
+  },
+  {
+    "ts": "2026-05-03T19:12:52.908Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 23
+  },
+  {
+    "ts": "2026-05-03T19:12:52.990Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 22
+  },
+  {
+    "ts": "2026-05-03T19:12:53.074Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 21
+  },
+  {
+    "ts": "2026-05-03T19:12:53.157Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 20
+  },
+  {
+    "ts": "2026-05-03T19:12:53.240Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 19
+  },
+  {
+    "ts": "2026-05-03T19:12:53.325Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 18
+  },
+  {
+    "ts": "2026-05-03T19:12:53.409Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 17
+  },
+  {
+    "ts": "2026-05-03T19:12:53.493Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 16
+  },
+  {
+    "ts": "2026-05-03T19:12:53.576Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 15
+  },
+  {
+    "ts": "2026-05-03T19:12:53.659Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 14
+  },
+  {
+    "ts": "2026-05-03T19:12:53.743Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 13
+  },
+  {
+    "ts": "2026-05-03T19:12:53.826Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 12
+  },
+  {
+    "ts": "2026-05-03T19:12:53.910Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 11
+  },
+  {
+    "ts": "2026-05-03T19:12:53.992Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 10
+  },
+  {
+    "ts": "2026-05-03T19:12:54.076Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 9
+  },
+  {
+    "ts": "2026-05-03T19:12:54.126Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 8
+  },
+  {
+    "ts": "2026-05-03T19:12:54.809Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 9
+  },
+  {
+    "ts": "2026-05-03T19:12:55.194Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 10
+  },
+  {
+    "ts": "2026-05-03T19:12:55.447Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 11
+  },
+  {
+    "ts": "2026-05-03T19:12:55.506Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 12
+  },
+  {
+    "ts": "2026-05-03T19:12:55.674Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 13
+  },
+  {
+    "ts": "2026-05-03T19:12:55.866Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 14
+  },
+  {
+    "ts": "2026-05-03T19:12:56.043Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 15
+  },
+  {
+    "ts": "2026-05-03T19:12:56.129Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 16
+  },
+  {
+    "ts": "2026-05-03T19:12:56.282Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 17
+  },
+  {
+    "ts": "2026-05-03T19:12:56.416Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 18
+  },
+  {
+    "ts": "2026-05-03T19:12:56.560Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 19
+  },
+  {
+    "ts": "2026-05-03T19:12:57.337Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 20
+  },
+  {
+    "ts": "2026-05-03T19:12:57.577Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 21
+  },
+  {
+    "ts": "2026-05-03T19:12:57.612Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 22
+  },
+  {
+    "ts": "2026-05-03T19:12:57.809Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 23
+  },
+  {
+    "ts": "2026-05-03T19:12:57.908Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 24
+  },
+  {
+    "ts": "2026-05-03T19:12:58.049Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 25
+  },
+  {
+    "ts": "2026-05-03T19:12:58.131Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 26
+  },
+  {
+    "ts": "2026-05-03T19:12:58.247Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 27
+  },
+  {
+    "ts": "2026-05-03T19:12:58.337Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 28
+  },
+  {
+    "ts": "2026-05-03T19:12:58.491Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 29
+  },
+  {
+    "ts": "2026-05-03T19:12:58.560Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 30
+  },
+  {
+    "ts": "2026-05-03T19:12:58.749Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 31
+  },
+  {
+    "ts": "2026-05-03T19:12:58.776Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 32
+  },
+  {
+    "ts": "2026-05-03T19:12:58.961Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 33
+  },
+  {
+    "ts": "2026-05-03T19:12:59.076Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 34
+  },
+  {
+    "ts": "2026-05-03T19:12:59.256Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 35
+  },
+  {
+    "ts": "2026-05-03T19:12:59.449Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 36
+  },
+  {
+    "ts": "2026-05-03T19:12:59.495Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 37
+  },
+  {
+    "ts": "2026-05-03T19:12:59.700Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 38
+  },
+  {
+    "ts": "2026-05-03T19:12:59.814Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 39
+  },
+  {
+    "ts": "2026-05-03T19:12:59.959Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 40
+  },
+  {
+    "ts": "2026-05-03T19:13:00.178Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 41
+  },
+  {
+    "ts": "2026-05-03T19:13:00.197Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 42
+  },
+  {
+    "ts": "2026-05-03T19:13:00.463Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 43
+  },
+  {
+    "ts": "2026-05-03T19:13:00.613Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 44
+  },
+  {
+    "ts": "2026-05-03T19:13:01.315Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 43
+  },
+  {
+    "ts": "2026-05-03T19:13:01.512Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 42
+  },
+  {
+    "ts": "2026-05-03T19:13:01.962Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 43
+  },
+  {
+    "ts": "2026-05-03T19:13:02.045Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 44
+  },
+  {
+    "ts": "2026-05-03T19:13:02.245Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 45
+  },
+  {
+    "ts": "2026-05-03T19:13:02.444Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 46
+  },
+  {
+    "ts": "2026-05-03T19:13:02.538Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 47
+  },
+  {
+    "ts": "2026-05-03T19:13:02.729Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 48
+  },
+  {
+    "ts": "2026-05-03T19:13:02.774Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 49
+  },
+  {
+    "ts": "2026-05-03T19:13:02.983Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 50
+  },
+  {
+    "ts": "2026-05-03T19:13:03.189Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 51
+  },
+  {
+    "ts": "2026-05-03T19:13:03.261Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 52
+  },
+  {
+    "ts": "2026-05-03T19:13:03.424Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 53
+  },
+  {
+    "ts": "2026-05-03T19:13:03.522Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 54
+  },
+  {
+    "ts": "2026-05-03T19:13:03.767Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 55
+  },
+  {
+    "ts": "2026-05-03T19:13:03.996Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 56
+  },
+  {
+    "ts": "2026-05-03T19:13:04.177Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 57
+  },
+  {
+    "ts": "2026-05-03T19:13:04.246Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 58
+  },
+  {
+    "ts": "2026-05-03T19:13:04.445Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 59
+  },
+  {
+    "ts": "2026-05-03T19:13:04.488Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 60
+  },
+  {
+    "ts": "2026-05-03T19:13:04.688Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 61
+  },
+  {
+    "ts": "2026-05-03T19:13:05.099Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 62
+  },
+  {
+    "ts": "2026-05-03T19:13:07.356Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 63
+  },
+  {
+    "ts": "2026-05-03T19:13:07.438Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 64
+  },
+  {
+    "ts": "2026-05-03T19:13:07.594Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 65
+  },
+  {
+    "ts": "2026-05-03T19:13:07.743Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 66
+  },
+  {
+    "ts": "2026-05-03T19:13:07.793Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 67
+  },
+  {
+    "ts": "2026-05-03T19:13:08.017Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 68
+  },
+  {
+    "ts": "2026-05-03T19:13:11.901Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 69
+  },
+  {
+    "ts": "2026-05-03T19:13:12.059Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 70
+  },
+  {
+    "ts": "2026-05-03T19:13:12.266Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 71
+  },
+  {
+    "ts": "2026-05-03T19:13:12.359Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 72
+  },
+  {
+    "ts": "2026-05-03T19:13:12.559Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 73
+  },
+  {
+    "ts": "2026-05-03T19:13:13.540Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 74
+  },
+  {
+    "ts": "2026-05-03T19:13:13.742Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 75
+  },
+  {
+    "ts": "2026-05-03T19:13:13.848Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 76
+  },
+  {
+    "ts": "2026-05-03T19:13:14.312Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 77
+  },
+  {
+    "ts": "2026-05-03T19:13:14.459Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 78
+  },
+  {
+    "ts": "2026-05-03T19:13:14.564Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 79
+  },
+  {
+    "ts": "2026-05-03T19:13:14.712Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 80
+  },
+  {
+    "ts": "2026-05-03T19:13:14.899Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 81
+  },
+  {
+    "ts": "2026-05-03T19:13:15.130Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 82
+  },
+  {
+    "ts": "2026-05-03T19:13:15.204Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 83
+  },
+  {
+    "ts": "2026-05-03T19:13:15.390Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 84
+  },
+  {
+    "ts": "2026-05-03T19:13:15.540Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 85
+  },
+  {
+    "ts": "2026-05-03T19:13:15.763Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 86
+  },
+  {
+    "ts": "2026-05-03T19:13:15.894Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 87
+  },
+  {
+    "ts": "2026-05-03T19:13:16.029Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 88
+  },
+  {
+    "ts": "2026-05-03T19:13:16.111Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 89
+  },
+  {
+    "ts": "2026-05-03T19:13:16.282Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 90
+  },
+  {
+    "ts": "2026-05-03T19:13:16.808Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 91
+  },
+  {
+    "ts": "2026-05-03T19:13:16.960Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 92
+  },
+  {
+    "ts": "2026-05-03T19:13:17.198Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 93
+  },
+  {
+    "ts": "2026-05-03T19:13:17.374Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 94
+  },
+  {
+    "ts": "2026-05-03T19:13:17.551Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 95
+  },
+  {
+    "ts": "2026-05-03T19:13:17.749Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 96
+  },
+  {
+    "ts": "2026-05-03T19:13:17.984Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 97
+  },
+  {
+    "ts": "2026-05-03T19:13:18.199Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 98
+  },
+  {
+    "ts": "2026-05-03T19:13:18.396Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 99
+  },
+  {
+    "ts": "2026-05-03T19:13:18.629Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 100
+  },
+  {
+    "ts": "2026-05-03T19:13:18.840Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 101
+  },
+  {
+    "ts": "2026-05-03T19:13:18.975Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 102
+  },
+  {
+    "ts": "2026-05-03T19:13:19.159Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 103
+  },
+  {
+    "ts": "2026-05-03T19:13:19.912Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 104
+  },
+  {
+    "ts": "2026-05-03T19:13:20.080Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 105
+  },
+  {
+    "ts": "2026-05-03T19:13:20.276Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 106
+  },
+  {
+    "ts": "2026-05-03T19:13:20.479Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 107
+  },
+  {
+    "ts": "2026-05-03T19:13:20.650Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 108
+  },
+  {
+    "ts": "2026-05-03T19:13:20.748Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 109
+  },
+  {
+    "ts": "2026-05-03T19:13:20.916Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 110
+  },
+  {
+    "ts": "2026-05-03T19:13:21.693Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 111
+  },
+  {
+    "ts": "2026-05-03T19:13:21.857Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 112
+  },
+  {
+    "ts": "2026-05-03T19:13:21.925Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 113
+  },
+  {
+    "ts": "2026-05-03T19:13:22.283Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 114
+  },
+  {
+    "ts": "2026-05-03T19:13:22.342Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 115
+  },
+  {
+    "ts": "2026-05-03T19:13:22.592Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 116
+  },
+  {
+    "ts": "2026-05-03T19:13:22.679Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 117
+  },
+  {
+    "ts": "2026-05-03T19:13:23.058Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 118
+  },
+  {
+    "ts": "2026-05-03T19:13:23.177Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 119
+  },
+  {
+    "ts": "2026-05-03T19:13:23.412Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 120
+  },
+  {
+    "ts": "2026-05-03T19:13:30.808Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 121
+  },
+  {
+    "ts": "2026-05-03T19:13:31.141Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 122
+  },
+  {
+    "ts": "2026-05-03T19:13:31.276Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 123
+  },
+  {
+    "ts": "2026-05-03T19:13:31.442Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 124
+  },
+  {
+    "ts": "2026-05-03T19:13:31.576Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 125
+  },
+  {
+    "ts": "2026-05-03T19:13:31.728Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 126
+  },
+  {
+    "ts": "2026-05-03T19:13:31.875Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 127
+  },
+  {
+    "ts": "2026-05-03T19:13:32.008Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 128
+  },
+  {
+    "ts": "2026-05-03T19:13:32.469Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 129
+  },
+  {
+    "ts": "2026-05-03T19:13:33.649Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 130
+  },
+  {
+    "ts": "2026-05-03T19:13:33.908Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 131
+  },
+  {
+    "ts": "2026-05-03T19:13:34.017Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 132
+  },
+  {
+    "ts": "2026-05-03T19:13:34.155Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 133
+  },
+  {
+    "ts": "2026-05-03T19:13:34.496Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 134
+  },
+  {
+    "ts": "2026-05-03T19:13:34.711Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 135
+  },
+  {
+    "ts": "2026-05-03T19:13:35.563Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 136
+  },
+  {
+    "ts": "2026-05-03T19:13:35.659Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 137
+  },
+  {
+    "ts": "2026-05-03T19:13:35.899Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 138
+  },
+  {
+    "ts": "2026-05-03T19:13:36.025Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 139
+  },
+  {
+    "ts": "2026-05-03T19:13:37.290Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 140
+  },
+  {
+    "ts": "2026-05-03T19:13:37.475Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 141
+  },
+  {
+    "ts": "2026-05-03T19:13:39.083Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 142
+  },
+  {
+    "ts": "2026-05-03T19:13:39.349Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 143
+  },
+  {
+    "ts": "2026-05-03T19:13:39.520Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 144
+  },
+  {
+    "ts": "2026-05-03T19:13:39.777Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 145
+  },
+  {
+    "ts": "2026-05-03T19:13:40.190Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 146
+  },
+  {
+    "ts": "2026-05-03T19:13:40.825Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 147
+  },
+  {
+    "ts": "2026-05-03T19:13:41.116Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 148
+  },
+  {
+    "ts": "2026-05-03T19:13:41.279Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 149
+  },
+  {
+    "ts": "2026-05-03T19:13:41.462Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 150
+  },
+  {
+    "ts": "2026-05-03T19:13:41.504Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 151
+  },
+  {
+    "ts": "2026-05-03T19:13:41.725Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 152
+  },
+  {
+    "ts": "2026-05-03T19:13:41.790Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 153
+  },
+  {
+    "ts": "2026-05-03T19:13:41.993Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 154
+  },
+  {
+    "ts": "2026-05-03T19:13:42.177Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 155
+  },
+  {
+    "ts": "2026-05-03T19:13:42.372Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 156
+  },
+  {
+    "ts": "2026-05-03T19:13:42.507Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 157
+  },
+  {
+    "ts": "2026-05-03T19:13:42.695Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 158
+  },
+  {
+    "ts": "2026-05-03T19:13:43.223Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 159
+  },
+  {
+    "ts": "2026-05-03T19:13:43.402Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 160
+  },
+  {
+    "ts": "2026-05-03T19:13:43.719Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 161
+  },
+  {
+    "ts": "2026-05-03T19:13:44.160Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 162
+  },
+  {
+    "ts": "2026-05-03T19:13:44.313Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 163
+  },
+  {
+    "ts": "2026-05-03T19:13:44.615Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 164
+  },
+  {
+    "ts": "2026-05-03T19:13:45.183Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 165
+  },
+  {
+    "ts": "2026-05-03T19:13:45.340Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 166
+  },
+  {
+    "ts": "2026-05-03T19:13:45.379Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 167
+  },
+  {
+    "ts": "2026-05-03T19:13:45.639Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 168
+  },
+  {
+    "ts": "2026-05-03T19:13:45.688Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 169
+  },
+  {
+    "ts": "2026-05-03T19:13:45.913Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 170
+  },
+  {
+    "ts": "2026-05-03T19:13:45.955Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 171
+  },
+  {
+    "ts": "2026-05-03T19:13:46.230Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 172
+  },
+  {
+    "ts": "2026-05-03T19:13:46.338Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 173
+  },
+  {
+    "ts": "2026-05-03T19:13:46.514Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 174
+  },
+  {
+    "ts": "2026-05-03T19:13:46.592Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 175
+  },
+  {
+    "ts": "2026-05-03T19:13:46.779Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 176
+  },
+  {
+    "ts": "2026-05-03T19:13:46.981Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 177
+  },
+  {
+    "ts": "2026-05-03T19:14:17.386Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0011",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "bifurcation",
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:14:22.583Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0011",
+    "noteLength": 0
+  },
+  {
+    "ts": "2026-05-03T19:15:04.754Z",
+    "action": "TOGGLE_FLAG",
+    "datasetId": "SCD-0001",
+    "flagged": true
+  },
+  {
+    "ts": "2026-05-03T19:15:06.079Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 55
+  },
+  {
+    "ts": "2026-05-03T19:15:08.002Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 0
+  },
+  {
+    "ts": "2026-05-03T19:15:08.817Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 1
+  },
+  {
+    "ts": "2026-05-03T19:15:08.929Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 2
+  },
+  {
+    "ts": "2026-05-03T19:15:09.087Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 3
+  },
+  {
+    "ts": "2026-05-03T19:15:09.171Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 4
+  },
+  {
+    "ts": "2026-05-03T19:15:09.310Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 5
+  },
+  {
+    "ts": "2026-05-03T19:15:09.396Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 6
+  },
+  {
+    "ts": "2026-05-03T19:15:09.575Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 7
+  },
+  {
+    "ts": "2026-05-03T19:15:09.678Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 8
+  },
+  {
+    "ts": "2026-05-03T19:15:09.918Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 9
+  },
+  {
+    "ts": "2026-05-03T19:15:10.168Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 10
+  },
+  {
+    "ts": "2026-05-03T19:15:10.264Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 11
+  },
+  {
+    "ts": "2026-05-03T19:15:10.381Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 12
+  },
+  {
+    "ts": "2026-05-03T19:15:10.566Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 13
+  },
+  {
+    "ts": "2026-05-03T19:15:10.765Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 14
+  },
+  {
+    "ts": "2026-05-03T19:15:10.825Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 15
+  },
+  {
+    "ts": "2026-05-03T19:15:10.974Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 16
+  },
+  {
+    "ts": "2026-05-03T19:15:11.132Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 17
+  },
+  {
+    "ts": "2026-05-03T19:15:11.256Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 18
+  },
+  {
+    "ts": "2026-05-03T19:15:11.442Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 19
+  },
+  {
+    "ts": "2026-05-03T19:15:11.674Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 20
+  },
+  {
+    "ts": "2026-05-03T19:15:12.192Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 19
+  },
+  {
+    "ts": "2026-05-03T19:15:12.365Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 18
+  },
+  {
+    "ts": "2026-05-03T19:15:12.875Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 19
+  },
+  {
+    "ts": "2026-05-03T19:15:13.084Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 20
+  },
+  {
+    "ts": "2026-05-03T19:15:13.253Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 21
+  },
+  {
+    "ts": "2026-05-03T19:15:13.408Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 22
+  },
+  {
+    "ts": "2026-05-03T19:15:13.489Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 23
+  },
+  {
+    "ts": "2026-05-03T19:15:13.596Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 24
+  },
+  {
+    "ts": "2026-05-03T19:15:13.689Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 25
+  },
+  {
+    "ts": "2026-05-03T19:15:13.825Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 26
+  },
+  {
+    "ts": "2026-05-03T19:15:14.463Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 27
+  },
+  {
+    "ts": "2026-05-03T19:15:14.569Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 28
+  },
+  {
+    "ts": "2026-05-03T19:15:14.747Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 29
+  },
+  {
+    "ts": "2026-05-03T19:15:14.805Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 30
+  },
+  {
+    "ts": "2026-05-03T19:15:14.947Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 31
+  },
+  {
+    "ts": "2026-05-03T19:15:15.125Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 32
+  },
+  {
+    "ts": "2026-05-03T19:15:15.327Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 33
+  },
+  {
+    "ts": "2026-05-03T19:15:15.528Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 34
+  },
+  {
+    "ts": "2026-05-03T19:15:15.563Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 35
+  },
+  {
+    "ts": "2026-05-03T19:15:15.761Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 36
+  },
+  {
+    "ts": "2026-05-03T19:15:15.879Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 37
+  },
+  {
+    "ts": "2026-05-03T19:15:15.997Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 38
+  },
+  {
+    "ts": "2026-05-03T19:15:16.179Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 39
+  },
+  {
+    "ts": "2026-05-03T19:15:16.254Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 40
+  },
+  {
+    "ts": "2026-05-03T19:15:16.441Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 41
+  },
+  {
+    "ts": "2026-05-03T19:15:16.677Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 42
+  },
+  {
+    "ts": "2026-05-03T19:15:16.941Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 43
+  },
+  {
+    "ts": "2026-05-03T19:15:17.132Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 44
+  },
+  {
+    "ts": "2026-05-03T19:15:32.642Z",
+    "action": "SET_NOTE",
+    "datasetId": "SCD-0001",
+    "noteLength": 0
+  },
+  {
+    "ts": "2026-05-03T19:15:35.374Z",
+    "action": "TOGGLE_FLAG",
+    "datasetId": "SCD-0001",
+    "flagged": false
+  },
+  {
+    "ts": "2026-05-03T19:15:45.021Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0003",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "simple_traj",
+      "blob",
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:15:47.308Z",
+    "action": "TOGGLE_FLAG",
+    "datasetId": "SCD-0003",
+    "flagged": true
+  },
+  {
+    "ts": "2026-05-03T19:16:25.703Z",
+    "action": "TOGGLE_FLAG",
+    "datasetId": "SCD-0013",
+    "flagged": true
+  },
+  {
+    "ts": "2026-05-03T19:16:54.003Z",
+    "action": "TOGGLE_FLAG",
+    "datasetId": "SCD-0018",
+    "flagged": true
+  },
+  {
+    "ts": "2026-05-03T19:17:10.843Z",
+    "action": "TOGGLE_FLAG",
+    "datasetId": "SCD-0019",
+    "flagged": true
+  },
+  {
+    "ts": "2026-05-03T19:17:22.439Z",
+    "action": "TOGGLE_FLAG",
+    "datasetId": "SCD-0020",
+    "flagged": true
+  },
+  {
+    "ts": "2026-05-03T19:18:28.674Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0030",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:18:33.553Z",
+    "action": "TOGGLE_FLAG",
+    "datasetId": "SCD-0030",
+    "flagged": true
+  },
+  {
+    "ts": "2026-05-03T19:18:45.653Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0045",
+    "structureType": "clusters",
+    "added": true,
+    "labels": [
+      "multi_branch",
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:18:51.272Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0045",
+    "structureType": "bifurcation",
+    "added": true,
+    "labels": [
+      "multi_branch",
+      "clusters",
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:18:59.871Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0045",
+    "structureType": "multi_branch",
+    "added": false,
+    "labels": [
+      "clusters",
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:19:23.720Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0051",
+    "structureType": "complex_tree",
+    "added": true,
+    "labels": [
+      "multi_branch",
+      "complex_tree"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:19:30.122Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0052",
+    "structureType": "complex_tree",
+    "added": true,
+    "labels": [
+      "clusters",
+      "bifurcation",
+      "multi_branch",
+      "complex_tree"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:19:45.239Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0050",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "bifurcation",
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:20:00.393Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0066",
+    "structureType": "simple_traj",
+    "added": true,
+    "labels": [
+      "multi_branch",
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:20:10.655Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0066",
+    "structureType": "multi_branch",
+    "added": false,
+    "labels": [
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:20:36.504Z",
+    "action": "TOGGLE_FLAG",
+    "datasetId": "SCD-0069",
+    "flagged": true
+  },
+  {
+    "ts": "2026-05-03T19:20:47.857Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0070",
+    "structureType": "multi_branch",
+    "added": true,
+    "labels": [
+      "complex_tree",
+      "clusters",
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:21:23.188Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0071",
+    "structureType": "blob",
+    "added": true,
+    "labels": [
+      "multi_branch",
+      "blob"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:21:24.171Z",
+    "action": "TOGGLE_FLAG",
+    "datasetId": "SCD-0071",
+    "flagged": true
+  },
+  {
+    "ts": "2026-05-03T19:21:44.526Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0074",
+    "structureType": "blob",
+    "added": true,
+    "labels": [
+      "clusters",
+      "multi_branch",
+      "blob"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:21:54.489Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0074",
+    "structureType": "blob",
+    "added": false,
+    "labels": [
+      "clusters",
+      "multi_branch"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:22:30.689Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0107",
+    "structureType": "blob",
+    "added": false,
+    "labels": [
+      "clusters"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:22:37.821Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0110",
+    "structureType": "blob",
+    "added": false,
+    "labels": [
+      "cyclic",
+      "simple_traj"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:22:39.238Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0111",
+    "structureType": "blob",
+    "added": false,
+    "labels": [
+      "cyclic",
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:23:29.776Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0003",
+    "structureType": "blob",
+    "added": false,
+    "labels": [
+      "simple_traj",
+      "bifurcation"
+    ]
+  },
+  {
+    "ts": "2026-05-03T19:23:30.553Z",
+    "action": "TOGGLE_LABEL",
+    "datasetId": "SCD-0003",
+    "structureType": "blob",
+    "added": true,
+    "labels": [
+      "simple_traj",
+      "bifurcation",
+      "blob"
+    ]
+  }
+]

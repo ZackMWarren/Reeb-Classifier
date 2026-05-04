@@ -1,0 +1,65 @@
+{
+  "graph_representation": "reduced_multigraph",
+  "already_reduced_multigraph": true,
+  "nodes": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "edges": [
+    {
+      "u": 0,
+      "v": 1,
+      "edge_id": 0
+    },
+    {
+      "u": 1,
+      "v": 2,
+      "edge_id": 1
+    },
+    {
+      "u": 1,
+      "v": 2,
+      "edge_id": 2
+    },
+    {
+      "u": 2,
+      "v": 3,
+      "edge_id": 3
+    }
+  ],
+  "edge_lengths": [
+    0.027155640976399154,
+    0.06411559496172395,
+    0.06411559496172395,
+    0.9086931335709609
+  ],
+  "node_positions_2d": {
+    "0": [
+      0.9746556358208395,
+      0.6983214755655609
+    ],
+    "1": [
+      0.9390311476010261,
+      0.6312364522316986
+    ],
+    "2": [
+      0.8786267334092214,
+      0.5497802800526522
+    ],
+    "3": [
+      0.011200353797948199,
+      0.7458541342787919
+    ]
+  },
+  "method_metadata": {
+    "method": "dreeb",
+    "k": 72,
+    "k_smooth": null,
+    "precision": 1.0,
+    "filter_method": "diffusion_eigenfunction",
+    "beta1": 1,
+    "components": 1
+  }
+}

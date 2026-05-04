@@ -43,9 +43,9 @@ class BinaryMLP(torch.nn.Module):
 
 # ── Training helpers ──────────────────────────────────────────────────────────
 
-def _make_loader(X: np.ndarray, y: np.ndarray, batch_size: int, shuffle: bool) -> DataLoader:
+def _make_loader(X: np.ndarray, y: np.ndarray, batch_size: int, shuffle: bool, drop_last: bool = False) -> DataLoader:
     ds = TensorDataset(torch.from_numpy(X), torch.from_numpy(y))
-    return DataLoader(ds, batch_size=batch_size, shuffle=shuffle)
+    return DataLoader(ds, batch_size=batch_size, shuffle=shuffle, drop_last=drop_last)
 
 
 def _train_epoch(model, loader, optimizer, criterion, device) -> float:
@@ -122,7 +122,7 @@ def run(
             X_train = (X_train - mean) / std
             X_test  = (X_test  - mean) / std
 
-            train_loader = _make_loader(X_train, y_train, batch_size, shuffle=True)
+            train_loader = _make_loader(X_train, y_train, batch_size, shuffle=True, drop_last=True)
             test_loader  = _make_loader(X_test,  y_test,  batch_size, shuffle=False)
 
             model     = BinaryMLP(in_features=FEAT_DIM, hidden=hidden).to(device)
