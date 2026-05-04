@@ -22,7 +22,7 @@ CLASS_ORDER = ["CLUSTERS", "SINGLE_TRAJECTORY", "MULTI_BRANCHING", "ARCHETYPAL"]
 NUM_CLASSES = len(CLASS_ORDER)
 
 VALID_METHODS = ("dreeb", "mapper", "paga")
-VALID_K       = ("k25", "k50", "k50_ks100")
+VALID_K       = ("k25", "k50", "k50_ks100", "k72", "k72_ks200")
 
 GRID_BINS = (32, 32)
 SIGMA     = 0.05
