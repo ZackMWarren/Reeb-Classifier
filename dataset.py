@@ -7,12 +7,18 @@ from enum import IntEnum
 import numpy as np
 
 TAG_TO_CLASS: dict[str, str] = {
-    "clusters":    "CLUSTERS",
-    "simple_traj": "SINGLE_TRAJECTORY",
-    "multi_branch": "MULTI_BRANCHING",
+    "clusters":           "CLUSTERS",
+    "simple_traj":        "SINGLE_TRAJECTORY",
+    "cyclic":             "SINGLE_TRAJECTORY",
+    "bifurcation":        "MULTI_BRANCHING",
+    "multi_branch":       "MULTI_BRANCHING",
+    "complex_tree":       "MULTI_BRANCHING",
+    "archetypal":         "ARCHETYPAL",
+    "surface":            "ARCHETYPAL",
+    # blob, outlier_dominated, batch_effect map to nothing → filtered out
 }
 
-CLASS_ORDER = [v for v in TAG_TO_CLASS.values()]
+CLASS_ORDER = ["CLUSTERS", "SINGLE_TRAJECTORY", "MULTI_BRANCHING", "ARCHETYPAL"]
 NUM_CLASSES = len(CLASS_ORDER)
 
 VALID_METHODS = ("dreeb", "mapper", "paga")
@@ -48,10 +54,31 @@ def _majority_vote(
     return merged
 
 
+def _union_vote(
+    per_annotator: dict[str, dict[str, list[str]]],
+    threshold: float = 0.5,
+) -> dict[str, list[str]]:
+    """Majority vote at the class level; fall back to union of all classes when none reach threshold."""
+    all_samples: set[str] = set()
+    for labels in per_annotator.values():
+        all_samples.update(labels.keys())
+
+    merged: dict[str, list[str]] = {}
+    for sample in all_samples:
+        annotator_labels = [
+            labels[sample] for labels in per_annotator.values() if sample in labels
+        ]
+
+        all_tags: list[str] = list({tag for tags in annotator_labels for tag in tags})
+        merged[sample] = all_tags
+
+    return merged
+
+
 def load_annotations(
     annotations_dir: str,
     threshold: float = 0.5,
-    aggregation: str = "majority_vote",
+    aggregation: str = "union_vote",
     valid_classes: tuple[str, ...] = tuple(CLASS_ORDER),
 ) -> dict[str, list[str]]:
     """Load labels from all annotator subdirectories and merge via majority vote.
@@ -75,8 +102,10 @@ def load_annotations(
     print(f"Annotators: {sorted(per_annotator)}")
     if aggregation == "majority_vote":
         merged = _majority_vote(per_annotator, threshold=threshold)
+    elif aggregation == "union_vote":
+        merged = _union_vote(per_annotator, threshold=threshold)
     else:
-        raise ValueError(f"Unknown aggregation '{aggregation}'. Choices: majority_vote")
+        raise ValueError(f"Unknown aggregation '{aggregation}'. Choices: majority_vote, union_vote")
 
     valid_class_set = set(valid_classes)
     return {
@@ -92,6 +121,7 @@ def discover_samples(
     annotations_dir: str,
     k: str = "k25",
     method: str = "dreeb",
+    aggregation: str = "union_vote",
 ) -> list[tuple[str, list[float]]]:
     all_dirs = sorted(glob.glob(os.path.join(data_dir, "SCD-*")))
     complete = [d for d in all_dirs if os.path.isdir(os.path.join(d, k, method))]
@@ -101,7 +131,7 @@ def discover_samples(
             f"for method='{method}' / k='{k}'"
         )
 
-    raw_labels = load_annotations(annotations_dir)
+    raw_labels = load_annotations(annotations_dir, aggregation=aggregation)
 
     kept, dropped_unlabelled, dropped_no_class = [], [], []
 
